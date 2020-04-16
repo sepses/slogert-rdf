@@ -9,6 +9,7 @@ import org.sepses.helper.Utility;
 import org.sepses.rdf.Core;
 import org.sepses.rdf.Slogert;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -16,23 +17,35 @@ import java.io.FileOutputStream;
 public class MainTransformer {
 
     public static void main(String[] args) throws FileNotFoundException {
+
+        transform(args[0], args[1], args[2]);
+        //        transform("slogert-owl.ttl", "auth.log_structured.ttl", "output-model.ttl");
+
+    }
+
+    public static void transform(String slogertFileString, String inputFileString, String outputFileString)
+            throws FileNotFoundException {
+
+        File slogertFile = new File(slogertFileString);
+        File inputFile = new File(inputFileString);
+        File outputFile = new File(outputFileString);
+
         Model slogModel = ModelFactory.createDefaultModel();
-        RDFDataMgr.read(slogModel, new FileInputStream("slogert-owl.ttl"), Lang.TURTLE);
+        RDFDataMgr.read(slogModel, new FileInputStream(slogertFile), Lang.TURTLE);
 
         Model model = ModelFactory.createDefaultModel();
-        RDFDataMgr.read(model, new FileInputStream("auth.log_structured.ttl"), Lang.TURTLE);
+        RDFDataMgr.read(model, new FileInputStream(inputFile), Lang.TURTLE);
 
         Model outputModel = ModelFactory.createDefaultModel();
         outputModel.setNsPrefixes(slogModel.getNsPrefixMap());
 
         write(slogModel, model, outputModel);
 
-        RDFDataMgr.write(new FileOutputStream("output-model.ttl"), outputModel, Lang.TURTLE);
+        RDFDataMgr.write(new FileOutputStream(outputFile), outputModel, Lang.TURTLE);
 
         outputModel.close();
         model.close();
         slogModel.close();
-
     }
 
     public static void write(Model slogModel, Model model, Model outputModel) {
