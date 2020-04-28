@@ -36,11 +36,7 @@ public class MainTransformer {
         Model model = ModelFactory.createDefaultModel();
         RDFDataMgr.read(model, new FileInputStream(inputFile), Lang.TURTLE);
 
-        Model outputModel = ModelFactory.createDefaultModel();
-        outputModel.setNsPrefixes(slogModel.getNsPrefixMap());
-
-        write(slogModel, model, outputModel);
-
+        Model outputModel = transformModel(slogModel, model);
         RDFDataMgr.write(new FileOutputStream(outputFile), outputModel, Lang.TURTLE);
 
         outputModel.close();
@@ -48,7 +44,9 @@ public class MainTransformer {
         slogModel.close();
     }
 
-    public static void write(Model slogModel, Model model, Model outputModel) {
+    public static Model transformModel(Model slogModel, Model model) {
+
+        Model oModel = ModelFactory.createDefaultModel();
 
         model.listStatements().forEachRemaining(statement -> {
             Resource subject = statement.getSubject();
@@ -61,18 +59,24 @@ public class MainTransformer {
                 Property prop = slogModel.getProperty(predicate.getURI());
 
                 Resource range = prop.getPropertyResourceValue(RDFS.range);
-                Resource resource = outputModel.createResource(Core.NS_INSTANCE + cleanString);
+                Resource resource =
+                        oModel.createResource(Core.NS_INSTANCE + range.getLocalName() + "_" + cleanString);
 
-                outputModel.add(subject, predicate, resource);
-                outputModel.add(resource, RDF.type, range);
+                oModel.add(subject, predicate, resource);
+                oModel.add(resource, RDF.type, range);
+                oModel.add(resource, RDFS.label, object);
 
             } else {
-                outputModel.add(statement);
+                oModel.add(statement);
             }
         });
+
+        return oModel;
     }
 
-    public static void testWrite(Model model, Model outputModel) {
+    public static Model testWrite(Model model) {
+
+        Model outputModel = ModelFactory.createDefaultModel();
 
         StmtIterator cip = model.listStatements(null, Slogert.containedIp, (RDFNode) null);
         cip.forEachRemaining(statement -> {
@@ -83,6 +87,8 @@ public class MainTransformer {
             outputModel.add(statement.getSubject(), Core.containedIp, resource);
             outputModel.add(resource, RDF.type, Core.Ip);
         });
+
+        return outputModel;
     }
 
 }
