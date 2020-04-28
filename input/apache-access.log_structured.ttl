@@ -1,0 +1,1125 @@
+@prefix core:  <http://w3id.org/sepses/vocab/log/core#> .
+@prefix slog:  <http://w3id.org/sepses/vocab/log/slogert#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://w3id.org/sepses/id/LogEntry_9cb0e3e8-1ba2-4d01-93cd-63d5c27b36e6>
+        a                            core:Log ;
+        core:logMessage              "GET /phpMyAdmin-3/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:46" ;
+        slog:contained               "5.0" , "404 277" , "537.36" , "1.1" , "/77.0.3865.120" , "10.0" ;
+        slog:containedUrlWithParams  "/phpMyAdmin-3/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_e34a432a-52ae-417e-afb8-311dd9596820>
+        a                core:Log ;
+        core:logMessage  "-| 408 - |-| |-" ;
+        core:timestamp   "2020-03-14T16:29:49" ;
+        slog:contained   "408" ;
+        slog:templateId  "fc00beb8eb365fc116780f0f33c9f695bbd2c732e250f8cd33cf19e191dfdde9" ;
+        slog:userIp      "10.0.0.4" .
+
+<http://w3id.org/sepses/id/LogEntry_ea428472-bfb7-4cfc-97be-c116cbb4a924>
+        a                            core:Log ;
+        core:logMessage              "GET /pma2013/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:55" ;
+        slog:contained               "404 277" , "1.1" , "/77.0.3865.120" , "10.0" , "5.0" , "537.36" ;
+        slog:containedUrlWithParams  "/pma2013/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_11502dd8-80e3-44f1-b545-106c21f51547>
+        a                            core:Log ;
+        core:logMessage              "GET /PMA2011/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:47" ;
+        slog:contained               "537.36" , "404 277" , "5.0" , "10.0" , "1.1" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/PMA2011/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_efcfb9c8-6b01-4066-afd0-b5fabcae9696>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/phpMyAdmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:33" ;
+        slog:contained               "10.0" , "5.0" , "1.1" , "/77.0.3865.120" , "537.36" , "404 277" ;
+        slog:containedUrlWithParams  "/sql/phpMyAdmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_85bc7ce9-cd88-436d-a40a-116622b38bd1>
+        a                core:Log ;
+        core:logMessage  "GET / HTTP/1.1| 200 10918 |-| |Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36" ;
+        core:timestamp   "2020-03-14T16:23:04" ;
+        slog:contained   "6.1" , "5.0" , "/52.0.2743.116" , "1.1" , "537.36" , "200 10918" ;
+        slog:templateId  "ca73a68a2b5209c66606e3bc18dbc80fcd0ca493f8a8d51b606b9cc3b44ac18b" ;
+        slog:userIp      "212.107.232.167" .
+
+<http://w3id.org/sepses/id/LogEntry_9bb21ec2-d470-4a70-9ed6-93c0f890f233>
+        a                            core:Log ;
+        core:logMessage              "GET /db/phpMyAdmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:13" ;
+        slog:contained               "1.1" , "/77.0.3865.120" , "404 277" , "5.0" , "10.0" , "537.36" ;
+        slog:containedUrlWithParams  "/db/phpMyAdmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_f19deb21-1d7c-4703-bda6-18d74546dfec>
+        a                            core:Log ;
+        core:logMessage              "GET /db/webdb/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:36" ;
+        slog:contained               "5.0" , "10.0" , "1.1" , "/77.0.3865.120" , "404 277" , "537.36" ;
+        slog:containedUrlWithParams  "/db/webdb/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_67f78e2e-e078-431c-b7d8-3f2c5919fde3>
+        a                            core:Log ;
+        core:logMessage              "GET /administrator/phpMyAdmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:40" ;
+        slog:contained               "10.0" , "5.0" , "404 277" , "/77.0.3865.120" , "537.36" , "1.1" ;
+        slog:containedUrlWithParams  "/administrator/phpMyAdmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_d0871d09-c9df-4910-9cac-2f308f39993c>
+        a                            core:Log ;
+        core:logMessage              "GET /db/phpMyAdmin-3/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:39" ;
+        slog:contained               "404 277" , "/77.0.3865.120" , "537.36" , "1.1" , "5.0" , "10.0" ;
+        slog:containedUrlWithParams  "/db/phpMyAdmin-3/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_7bf8a718-b6a3-40ea-bac5-14575f993b6f>
+        a                            core:Log ;
+        core:logMessage              "GET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:04" ;
+        slog:contained               "10.0" , "404 277" , "5.0" , "1.1" , "537.36" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_ca14af15-788a-4520-a882-4e9013076ef3>
+        a                            core:Log ;
+        core:logMessage              "GET /PMA2020/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:53" ;
+        slog:contained               "/77.0.3865.120" , "5.0" , "1.1" , "404 277" , "537.36" , "10.0" ;
+        slog:containedUrlWithParams  "/PMA2020/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_4cb91d27-9fe6-4875-97d1-d147b276e8f3>
+        a                core:Log ;
+        core:logMessage  "GET / HTTP/1.1| 200 10918 |-| |Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" ;
+        core:timestamp   "2020-03-14T14:10:03" ;
+        slog:contained   "1.1" , "/51.0.2704.103" , "537.36" , "200 10918" , "6.1" , "5.0" ;
+        slog:templateId  "ca73a68a2b5209c66606e3bc18dbc80fcd0ca493f8a8d51b606b9cc3b44ac18b" ;
+        slog:userIp      "187.102.54.255" .
+
+<http://w3id.org/sepses/id/LogEntry_cb19d7db-81bf-4e46-aad9-c6ad3d015209>
+        a                            core:Log ;
+        core:logMessage              "GET /PMA2018/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:51" ;
+        slog:contained               "1.1" , "10.0" , "/77.0.3865.120" , "5.0" , "537.36" , "404 277" ;
+        slog:containedUrlWithParams  "/PMA2018/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_ca3bd5cf-0d8d-4ccf-b66b-d1a2fd3a20ae>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin2014/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:51:02" ;
+        slog:contained               "10.0" , "1.1" , "5.0" , "/77.0.3865.120" , "404 277" , "537.36" ;
+        slog:containedUrlWithParams  "/phpmyadmin2014/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_c3f94b46-a7d2-4880-9e8c-0cde54a0fefd>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin2017/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:51:04" ;
+        slog:contained               "5.0" , "10.0" , "537.36" , "/77.0.3865.120" , "404 277" , "1.1" ;
+        slog:containedUrlWithParams  "/phpmyadmin2017/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_1316d7d2-7d71-4741-904a-399409e759cf>
+        a                            core:Log ;
+        core:logMessage              "GET /PMA2012/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:48" ;
+        slog:contained               "404 277" , "5.0" , "/77.0.3865.120" , "10.0" , "1.1" , "537.36" ;
+        slog:containedUrlWithParams  "/PMA2012/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_c45e79e4-9461-412b-8299-4bc730d80fbf>
+        a                core:Log ;
+        core:logMessage  "-| 408 - |-| |-" ;
+        core:timestamp   "2020-03-14T15:50:45" ;
+        slog:contained   "408" ;
+        slog:templateId  "fc00beb8eb365fc116780f0f33c9f695bbd2c732e250f8cd33cf19e191dfdde9" ;
+        slog:userIp      "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_b27c00f9-a14a-4839-866e-3248c8a666a2>
+        a                            core:Log ;
+        core:logMessage              "GET /admin/sysadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:18" ;
+        slog:contained               "404 277" , "/77.0.3865.120" , "10.0" , "537.36" , "5.0" , "1.1" ;
+        slog:containedUrlWithParams  "/admin/sysadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_d7e4eb99-d19a-41db-9f5e-df4760185175>
+        a                            core:Log ;
+        core:logMessage              "GET /mysql/mysqlmanager/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:02" ;
+        slog:contained               "/77.0.3865.120" , "5.0" , "10.0" , "1.1" , "537.36" , "404 277" ;
+        slog:containedUrlWithParams  "/mysql/mysqlmanager/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_bc6dc518-9035-4374-a9bd-76962a43c2b1>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin4/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:00" ;
+        slog:contained               "/77.0.3865.120" , "1.1" , "404 277" , "5.0" , "537.36" , "10.0" ;
+        slog:containedUrlWithParams  "/phpmyadmin4/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_b73a6918-ee86-4aed-a6be-29f63c09da93>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/sqlweb/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:29" ;
+        slog:contained               "1.1" , "10.0" , "404 277" , "537.36" , "/77.0.3865.120" , "5.0" ;
+        slog:containedUrlWithParams  "/sql/sqlweb/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_df66e068-068e-43b8-a2d8-928f35e54f54>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin3/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:49:59" ;
+        slog:contained               "5.0" , "1.1" , "537.36" , "/77.0.3865.120" , "404 277" , "10.0" ;
+        slog:containedUrlWithParams  "/phpmyadmin3/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_ba03e2ae-d5a3-46c0-bb06-9b5334430834>
+        a                            core:Log ;
+        core:logMessage              "GET /phppma/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:05" ;
+        slog:contained               "537.36" , "/77.0.3865.120" , "1.1" , "404 277" , "10.0" , "5.0" ;
+        slog:containedUrlWithParams  "/phppma/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_e327dd4d-f94a-4b37-a5bd-20ef9291cfb1>
+        a                core:Log ;
+        core:logMessage  "|xba|xabd|xa1EZC|xdbM|x87|xee^|xfd|xbf|x159 X|xd4>|x12|x98|xc4<|xe0|x13|xcf| 400 300 |-| |-" ;
+        core:timestamp   "2020-03-14T13:34:34" ;
+        slog:contained   "400 300" ;
+        slog:templateId  "842adfe36ffcf7b4bd556130a79e69d76d3cb49a3553d3253dd9821f50a08d86" ;
+        slog:userIp      "172.104.242.173" .
+
+<http://w3id.org/sepses/id/LogEntry_501b367e-8a9b-4b94-8f3f-2c85a1e6eb78>
+        a                core:Log ;
+        core:logMessage  "HEAD /robots.txt HTTP/1.0| 404 - |-| |-" ;
+        core:timestamp   "2020-03-14T17:44:18" ;
+        slog:contained   "1.0" , "404" ;
+        slog:templateId  "23701ba995e33599b0a92fe4d9f42aa226a093236186c960bf439e953404f3a5" ;
+        slog:userIp      "66.151.211.170" .
+
+<http://w3id.org/sepses/id/LogEntry_8b329d78-67fa-483d-abd8-a19e801099ea>
+        a                            core:Log ;
+        core:logMessage              "GET /db/phpMyAdmin3/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:38" ;
+        slog:contained               "404 277" , "5.0" , "10.0" , "1.1" , "537.36" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/db/phpMyAdmin3/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_67c077db-06c3-4588-b141-f42803f0722f>
+        a                            core:Log ;
+        core:logMessage              "GET /db/db-admin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:37" ;
+        slog:contained               "/77.0.3865.120" , "537.36" , "404 277" , "10.0" , "5.0" , "1.1" ;
+        slog:containedUrlWithParams  "/db/db-admin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_11aac9df-8e2c-42c6-a477-0ff60e5bfb23>
+        a                            core:Log ;
+        core:logMessage              "GET /db/myadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:33" ;
+        slog:contained               "404 277" , "10.0" , "1.1" , "537.36" , "5.0" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/db/myadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_91c026bc-6938-4ba2-a6b6-fa9a6b8a6d73>
+        a                            core:Log ;
+        core:logMessage              "GET /mysql/pMA/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:24" ;
+        slog:contained               "537.36" , "1.1" , "/77.0.3865.120" , "10.0" , "5.0" , "404 277" ;
+        slog:containedUrlWithParams  "/mysql/pMA/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_55e9fd64-9961-453d-a6c0-a235f371881a>
+        a                core:Log ;
+        core:logMessage  "GET / HTTP/1.1| 200 10918 |-| |Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" ;
+        core:timestamp   "2020-03-14T12:54:00" ;
+        slog:contained   "1.1" , "5.0" , "537.36" , "/51.0.2704.103" , "200 10918" , "6.1" ;
+        slog:templateId  "ca73a68a2b5209c66606e3bc18dbc80fcd0ca493f8a8d51b606b9cc3b44ac18b" ;
+        slog:userIp      "201.92.187.217" .
+
+<http://w3id.org/sepses/id/LogEntry_c15f7305-ff8a-49bd-8421-bc382e773792>
+        a                            core:Log ;
+        core:logMessage              "GET /index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:51:06" ;
+        slog:contained               "1.1" , "537.36" , "404 277" , "10.0" , "/77.0.3865.120" , "5.0" ;
+        slog:containedUrlWithParams  "/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_c24fa054-b6f5-4f77-890e-652fe3e812cb>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/php-myadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:25" ;
+        slog:contained               "1.1" , "404 277" , "/77.0.3865.120" , "537.36" , "10.0" , "5.0" ;
+        slog:containedUrlWithParams  "/sql/php-myadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_ae568028-065b-4562-9521-82512d453262>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmy/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:04" ;
+        slog:contained               "5.0" , "1.1" , "537.36" , "404 277" , "/77.0.3865.120" , "10.0" ;
+        slog:containedUrlWithParams  "/phpmy/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_9dcac1f5-dc21-4925-8656-f7718c631050>
+        a                            core:Log ;
+        core:logMessage              "GET /pma2011/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:53" ;
+        slog:contained               "1.1" , "404 277" , "/77.0.3865.120" , "537.36" , "5.0" , "10.0" ;
+        slog:containedUrlWithParams  "/pma2011/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_a3b5cc01-9d62-4a3e-ab1b-53b16f662949>
+        a                            core:Log ;
+        core:logMessage              "GET /phpMyAdmin4/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:45" ;
+        slog:contained               "10.0" , "404 277" , "5.0" , "1.1" , "537.36" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/phpMyAdmin4/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_7c20d04f-cefc-45f2-8cb1-347bcce81a80>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin2020/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:51:05" ;
+        slog:contained               "1.1" , "10.0" , "537.36" , "404 277" , "/77.0.3865.120" , "5.0" ;
+        slog:containedUrlWithParams  "/phpmyadmin2020/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_7e0d4e55-0a1b-4592-9eb5-a3027c25ac7c>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/phpmyadmin2/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:32" ;
+        slog:contained               "404 277" , "1.1" , "5.0" , "537.36" , "10.0" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/sql/phpmyadmin2/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_7cc14567-9c9c-4e09-a2fe-57b3452f5d10>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin1/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:49:58" ;
+        slog:contained               "1.1" , "10.0" , "/77.0.3865.120" , "537.36" , "404 277" , "5.0" ;
+        slog:containedUrlWithParams  "/phpmyadmin1/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_a6c903a7-8447-4629-9b13-9aa89206fee0>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/sql/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:27" ;
+        slog:contained               "10.0" , "5.0" , "1.1" , "537.36" , "404 277" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/sql/sql/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_89938e40-ba3f-4547-b786-0b926a0ba8de>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:49:54" ;
+        slog:contained               "404 277" , "10.0" , "537.36" , "1.1" , "5.0" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/phpmyadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_47aa4acd-b4a1-4bf2-9600-4529d3b550d5>
+        a                            core:Log ;
+        core:logMessage              "GET /admin/db/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:20" ;
+        slog:contained               "537.36" , "/77.0.3865.120" , "1.1" , "10.0" , "404 277" , "5.0" ;
+        slog:containedUrlWithParams  "/admin/db/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_de698831-5199-4af4-92a6-eccd87280d14>
+        a                            core:Log ;
+        core:logMessage              "GET /administrator/admin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:43" ;
+        slog:contained               "537.36" , "10.0" , "1.1" , "404 277" , "/77.0.3865.120" , "5.0" ;
+        slog:containedUrlWithParams  "/administrator/admin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_bfd133a4-163a-4ee5-9cf4-03b9e9098c72>
+        a                            core:Log ;
+        core:logMessage              "GET /mysql/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:49:56" ;
+        slog:contained               "1.1" , "10.0" , "404 277" , "/77.0.3865.120" , "5.0" , "537.36" ;
+        slog:containedUrlWithParams  "/mysql/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_aec90844-fcdc-4875-a320-44d7466d0539>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin2013/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:51:01" ;
+        slog:contained               "1.1" , "10.0" , "537.36" , "404 277" , "5.0" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/phpmyadmin2013/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_8962c459-e056-4791-8505-296a8a5959cc>
+        a                            core:Log ;
+        core:logMessage              "GET /PMA2017/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:51" ;
+        slog:contained               "5.0" , "10.0" , "404 277" , "537.36" , "/77.0.3865.120" , "1.1" ;
+        slog:containedUrlWithParams  "/PMA2017/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_d25192c2-d2d8-4fdc-8817-c27c938920fe>
+        a                            core:Log ;
+        core:logMessage              "GET /administrator/pma/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:42" ;
+        slog:contained               "537.36" , "/77.0.3865.120" , "10.0" , "404 277" , "1.1" , "5.0" ;
+        slog:containedUrlWithParams  "/administrator/pma/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_e2891ba9-9dcd-4414-9a03-d3fe79c34a52>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/phpmy-admin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:26" ;
+        slog:contained               "5.0" , "1.1" , "537.36" , "404 277" , "10.0" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/sql/phpmy-admin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_0071aefb-2edb-4949-9f83-6e14b8fb0301>
+        a                            core:Log ;
+        core:logMessage              "GET /mysqladmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:16" ;
+        slog:contained               "1.1" , "/77.0.3865.120" , "537.36" , "10.0" , "404 277" , "5.0" ;
+        slog:containedUrlWithParams  "/mysqladmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_1f0ce515-5b09-4f77-b59e-6e26667d858a>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin2/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:49:58" ;
+        slog:contained               "5.0" , "1.1" , "537.36" , "404 277" , "/77.0.3865.120" , "10.0" ;
+        slog:containedUrlWithParams  "/phpmyadmin2/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_40cf569e-8458-45bc-9311-0993db69c403>
+        a                            core:Log ;
+        core:logMessage              "GET /phpMyadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:49:54" ;
+        slog:contained               "1.1" , "/77.0.3865.120" , "404 277" , "10.0" , "537.36" , "5.0" ;
+        slog:containedUrlWithParams  "/phpMyadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_2b5cbf4b-625c-4859-b601-0c9466a16070>
+        a                core:Log ;
+        core:logMessage  "-| 408 - |-| |-" ;
+        core:timestamp   "2020-03-14T12:19:05" ;
+        slog:contained   "408" ;
+        slog:templateId  "fc00beb8eb365fc116780f0f33c9f695bbd2c732e250f8cd33cf19e191dfdde9" ;
+        slog:userIp      "61.219.11.153" .
+
+<http://w3id.org/sepses/id/LogEntry_dad57727-398d-45be-9a93-1871f3d04a93>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/phpMyAdmin2/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:32" ;
+        slog:contained               "/77.0.3865.120" , "10.0" , "537.36" , "404 277" , "1.1" , "5.0" ;
+        slog:containedUrlWithParams  "/sql/phpMyAdmin2/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_39f9875d-464c-470a-963b-50c40155ac81>
+        a                            core:Log ;
+        core:logMessage              "GET /mysql-admin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:16" ;
+        slog:contained               "404 277" , "5.0" , "/77.0.3865.120" , "537.36" , "10.0" , "1.1" ;
+        slog:containedUrlWithParams  "/mysql-admin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_bdc0c542-5ac9-4931-97ef-f2d50c09e29a>
+        a                core:Log ;
+        core:logMessage  "-| 408 - |-| |-" ;
+        core:timestamp   "2020-03-14T16:25:52" ;
+        slog:contained   "408" ;
+        slog:templateId  "fc00beb8eb365fc116780f0f33c9f695bbd2c732e250f8cd33cf19e191dfdde9" ;
+        slog:userIp      "10.0.0.4" .
+
+<http://w3id.org/sepses/id/LogEntry_66555ce3-4d16-4146-8346-c3e088a3dc23>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/websql/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:29" ;
+        slog:contained               "1.1" , "10.0" , "/77.0.3865.120" , "537.36" , "404 277" , "5.0" ;
+        slog:containedUrlWithParams  "/sql/websql/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_9e6e765b-14fb-4c24-9877-3689de2c6a76>
+        a                            core:Log ;
+        core:logMessage              "GET /php-myadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:14" ;
+        slog:contained               "1.1" , "404 277" , "/77.0.3865.120" , "10.0" , "537.36" , "5.0" ;
+        slog:containedUrlWithParams  "/php-myadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_9d24bea5-3885-40ce-9c0c-6453f69710fa>
+        a                            core:Log ;
+        core:logMessage              "GET /pma2017/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:57" ;
+        slog:contained               "/77.0.3865.120" , "537.36" , "5.0" , "1.1" , "10.0" , "404 277" ;
+        slog:containedUrlWithParams  "/pma2017/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_d7a4ebbf-da62-4f12-ad6d-0a6cbb885d37>
+        a                            core:Log ;
+        core:logMessage              "GET /admin/phpmyadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:17" ;
+        slog:contained               "5.0" , "/77.0.3865.120" , "1.1" , "10.0" , "537.36" , "404 277" ;
+        slog:containedUrlWithParams  "/admin/phpmyadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_1869a51f-5dfe-4668-85b1-b9c1e11fd03d>
+        a                            core:Log ;
+        core:logMessage              "GET /mysql/web/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:23" ;
+        slog:contained               "10.0" , "537.36" , "5.0" , "1.1" , "404 277" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/mysql/web/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_a8f50d31-0552-4588-aab5-e2e245853cf6>
+        a                            core:Log ;
+        core:logMessage              "GET /pma2019/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:59" ;
+        slog:contained               "404 277" , "537.36" , "/77.0.3865.120" , "1.1" , "5.0" , "10.0" ;
+        slog:containedUrlWithParams  "/pma2019/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_adffff07-5755-4bca-bec1-243c54570b01>
+        a                            core:Log ;
+        core:logMessage              "GET /pma2018/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:58" ;
+        slog:contained               "/77.0.3865.120" , "5.0" , "404 277" , "1.1" , "10.0" , "537.36" ;
+        slog:containedUrlWithParams  "/pma2018/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_9b41fa5f-ef17-40fb-a389-636e294c4cbc>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmy-admin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:15" ;
+        slog:contained               "404 277" , "1.1" , "537.36" , "5.0" , "10.0" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/phpmy-admin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_9f3823b9-b8fa-47a2-bc2c-edad533c512c>
+        a                            core:Log ;
+        core:logMessage              "GET /mysql/sqlmanager/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:02" ;
+        slog:contained               "5.0" , "10.0" , "404 277" , "537.36" , "1.1" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/mysql/sqlmanager/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_7bdaa90d-ff9d-4656-bf16-194b431af07b>
+        a                            core:Log ;
+        core:logMessage              "GET /shopdb/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:06" ;
+        slog:contained               "5.0" , "/77.0.3865.120" , "537.36" , "10.0" , "404 277" , "1.1" ;
+        slog:containedUrlWithParams  "/shopdb/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_5b4dd507-cfae-4a4e-b17d-723f218e2abe>
+        a                            core:Log ;
+        core:logMessage              "GET /admin/sqladmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:19" ;
+        slog:contained               "/77.0.3865.120" , "1.1" , "5.0" , "404 277" , "537.36" , "10.0" ;
+        slog:containedUrlWithParams  "/admin/sqladmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_ce3d2703-e8e6-404c-8d7d-b7810c27e183>
+        a                core:Log ;
+        core:logMessage  "-| 408 - |-| |-" ;
+        core:timestamp   "2020-03-14T16:06:36" ;
+        slog:contained   "408" ;
+        slog:templateId  "fc00beb8eb365fc116780f0f33c9f695bbd2c732e250f8cd33cf19e191dfdde9" ;
+        slog:userIp      "10.0.0.4" .
+
+<http://w3id.org/sepses/id/LogEntry_5b06e483-9999-45e3-864a-fd9728d5ecfe>
+        a                            core:Log ;
+        core:logMessage              "GET /PMA2013/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:48" ;
+        slog:contained               "537.36" , "404 277" , "5.0" , "1.1" , "/77.0.3865.120" , "10.0" ;
+        slog:containedUrlWithParams  "/PMA2013/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_31fd2d59-63cb-49aa-9a6c-124020e3ccdc>
+        a                core:Log ;
+        core:logMessage  "GET / HTTP/1.1| 200 10918 |-| |-" ;
+        core:timestamp   "2020-03-14T15:33:33" ;
+        slog:contained   "1.1" , "200 10918" ;
+        slog:templateId  "67e06191ddb4bf3b123895b6fbd4bcbe181ef3831a7ee8d53983b80c6fc84b45" ;
+        slog:userIp      "24.8.127.192" .
+
+<http://w3id.org/sepses/id/LogEntry_597bc701-e56c-41eb-9454-948d376caa50>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin2011/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:51:00" ;
+        slog:contained               "10.0" , "/77.0.3865.120" , "537.36" , "1.1" , "5.0" , "404 277" ;
+        slog:containedUrlWithParams  "/phpmyadmin2011/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_2bbda20b-e2b6-4d8d-9163-34e03f4f5b1c>
+        a                            core:Log ;
+        core:logMessage              "GET /phpMyAdmin3/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:44" ;
+        slog:contained               "5.0" , "404 277" , "10.0" , "537.36" , "1.1" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/phpMyAdmin3/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_3a8aad36-891c-4a9d-9a2b-0bc43e2ed722>
+        a                            core:Log ;
+        core:logMessage              "GET /administrator/PMA/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:42" ;
+        slog:contained               "537.36" , "1.1" , "/77.0.3865.120" , "10.0" , "5.0" , "404 277" ;
+        slog:containedUrlWithParams  "/administrator/PMA/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_cdbcac0c-761f-4fa2-a932-f486b23cb6f9>
+        a                            core:Log ;
+        core:logMessage              "GET /admin/phpMyAdmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:18" ;
+        slog:contained               "1.1" , "404 277" , "537.36" , "/77.0.3865.120" , "5.0" , "10.0" ;
+        slog:containedUrlWithParams  "/admin/phpMyAdmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_ee75aac6-19ae-4c52-a231-d9ac5167e949>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin2012/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:51:01" ;
+        slog:contained               "537.36" , "404 277" , "10.0" , "1.1" , "5.0" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/phpmyadmin2012/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_a0f1e438-acf9-47d4-b684-0031ebcc539e>
+        a                            core:Log ;
+        core:logMessage              "GET /php-my-admin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:46" ;
+        slog:contained               "537.36" , "10.0" , "1.1" , "5.0" , "/77.0.3865.120" , "404 277" ;
+        slog:containedUrlWithParams  "/php-my-admin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_bd8bdf85-c619-4aab-8358-7b2c70c6e457>
+        a                            core:Log ;
+        core:logMessage              "GET /myadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:06" ;
+        slog:contained               "/77.0.3865.120" , "10.0" , "537.36" , "5.0" , "1.1" , "404 277" ;
+        slog:containedUrlWithParams  "/myadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_166267d2-da3f-4b3b-9e3c-b56a878d1a04>
+        a                            core:Log ;
+        core:logMessage              "GET /PMA2019/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:52" ;
+        slog:contained               "404 277" , "10.0" , "537.36" , "5.0" , "1.1" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/PMA2019/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_44ea0080-592c-45ad-b5d3-b18f2be0fb24>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/myadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:27" ;
+        slog:contained               "404 277" , "10.0" , "5.0" , "1.1" , "/77.0.3865.120" , "537.36" ;
+        slog:containedUrlWithParams  "/sql/myadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_6418c3a5-b56a-4e7e-9d36-122f97cc56bc>
+        a                core:Log ;
+        core:logMessage  "-| 408 - |-| |-" ;
+        core:timestamp   "2020-03-14T16:23:58" ;
+        slog:contained   "408" ;
+        slog:templateId  "fc00beb8eb365fc116780f0f33c9f695bbd2c732e250f8cd33cf19e191dfdde9" ;
+        slog:userIp      "10.0.0.4" .
+
+<http://w3id.org/sepses/id/LogEntry_9ff6df8a-33a9-48c6-8c7e-8fbb45293004>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin2018/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:51:04" ;
+        slog:contained               "1.1" , "537.36" , "5.0" , "/77.0.3865.120" , "10.0" , "404 277" ;
+        slog:containedUrlWithParams  "/phpmyadmin2018/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_c4501ce0-eb7e-4a6f-a686-80bb245bc626>
+        a                            core:Log ;
+        core:logMessage              "GET /PMA2015/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:50" ;
+        slog:contained               "5.0" , "404 277" , "537.36" , "10.0" , "/77.0.3865.120" , "1.1" ;
+        slog:containedUrlWithParams  "/PMA2015/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_28e0ce22-ebac-4b7c-a808-c950d644226b>
+        a                            core:Log ;
+        core:logMessage              "GET /db/dbadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:36" ;
+        slog:contained               "1.1" , "404 277" , "537.36" , "10.0" , "/77.0.3865.120" , "5.0" ;
+        slog:containedUrlWithParams  "/db/dbadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_1e672570-bec4-46f3-970f-a337f3286e2f>
+        a                            core:Log ;
+        core:logMessage              "GET /PMA/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:09" ;
+        slog:contained               "/77.0.3865.120" , "5.0" , "537.36" , "404 277" , "10.0" , "1.1" ;
+        slog:containedUrlWithParams  "/PMA/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_b69d952e-fa3c-47ae-abdc-32a67730732d>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/webdb/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:30" ;
+        slog:contained               "537.36" , "5.0" , "/77.0.3865.120" , "404 277" , "10.0" , "1.1" ;
+        slog:containedUrlWithParams  "/sql/webdb/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_1858d99e-7b5d-4eb6-b384-f3f00c359e2f>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin2015/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:51:02" ;
+        slog:contained               "10.0" , "5.0" , "/77.0.3865.120" , "404 277" , "1.1" , "537.36" ;
+        slog:containedUrlWithParams  "/phpmyadmin2015/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_8dd363f5-5b95-416d-810b-8c4b25da44c0>
+        a                            core:Log ;
+        core:logMessage              "GET /dbadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:09" ;
+        slog:contained               "/77.0.3865.120" , "5.0" , "404 277" , "537.36" , "10.0" , "1.1" ;
+        slog:containedUrlWithParams  "/dbadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_585fbea3-4c6c-4892-ade2-c93ba2884c82>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyAdmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:49:56" ;
+        slog:contained               "/77.0.3865.120" , "404 277" , "1.1" , "537.36" , "5.0" , "10.0" ;
+        slog:containedUrlWithParams  "/phpmyAdmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_d2fe5665-5bff-4043-8027-f22bd843ecf4>
+        a                            core:Log ;
+        core:logMessage              "GET /db/phpmyadmin3/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:38" ;
+        slog:contained               "10.0" , "5.0" , "537.36" , "/77.0.3865.120" , "404 277" , "1.1" ;
+        slog:containedUrlWithParams  "/db/phpmyadmin3/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_5a37b834-ea7d-4ffa-b234-32adcc64807e>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/webadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:28" ;
+        slog:contained               "10.0" , "1.1" , "/77.0.3865.120" , "5.0" , "537.36" , "404 277" ;
+        slog:containedUrlWithParams  "/sql/webadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_f1783a7b-eb7d-4e12-8199-0f5f35dcd52a>
+        a                            core:Log ;
+        core:logMessage              "GET /mysql/pma/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:22" ;
+        slog:contained               "1.1" , "5.0" , "404 277" , "/77.0.3865.120" , "10.0" , "537.36" ;
+        slog:containedUrlWithParams  "/mysql/pma/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_000646c2-1100-465e-ac15-5327ab972445>
+        a                core:Log ;
+        core:logMessage  "GET / HTTP/1.1| 200 10918 |-| |Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7" ;
+        core:timestamp   "2020-03-14T15:33:31" ;
+        slog:contained   "11_6" , "10" , "1.2" , "1.1" , "9" , "200 10918" , "601" , "7.7" , "5.0" ;
+        slog:templateId  "b64f21e5b9758fd1842b23e0c0cf5e5634c49380c50e360b1973a856fbacb948" ;
+        slog:userIp      "125.209.102.205" .
+
+<http://w3id.org/sepses/id/LogEntry_121d5bd2-5cbc-4a7d-9928-24be663b9210>
+        a                            core:Log ;
+        core:logMessage              "GET /mysql/admin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:00" ;
+        slog:contained               "/77.0.3865.120" , "10.0" , "5.0" , "537.36" , "404 277" , "1.1" ;
+        slog:containedUrlWithParams  "/mysql/admin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_168bdac9-49d7-4669-8415-e1bc6727dc16>
+        a                            core:Log ;
+        core:logMessage              "GET /db/webadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:34" ;
+        slog:contained               "10.0" , "404 277" , "1.1" , "5.0" , "537.36" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/db/webadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_5d3c0feb-3b53-4ef7-9483-a16375a55ec8>
+        a                            core:Log ;
+        core:logMessage              "GET /pma2014/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:55" ;
+        slog:contained               "404 277" , "537.36" , "5.0" , "10.0" , "/77.0.3865.120" , "1.1" ;
+        slog:containedUrlWithParams  "/pma2014/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_7becb2ce-5329-4792-a39a-b27e8d20424d>
+        a                            core:Log ;
+        core:logMessage              "GET /db/dbweb/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:35" ;
+        slog:contained               "/77.0.3865.120" , "1.1" , "10.0" , "404 277" , "5.0" , "537.36" ;
+        slog:containedUrlWithParams  "/db/dbweb/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_3be30e3e-85f7-4df2-953b-047fab7b5e18>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/phpmanager/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:24" ;
+        slog:contained               "5.0" , "404 277" , "/77.0.3865.120" , "10.0" , "537.36" , "1.1" ;
+        slog:containedUrlWithParams  "/sql/phpmanager/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_61ecdb5c-c346-4b1d-8ff0-d4e3508cd4c5>
+        a                            core:Log ;
+        core:logMessage              "GET /mysqlmanager/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:14" ;
+        slog:contained               "1.1" , "10.0" , "404 277" , "537.36" , "5.0" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/mysqlmanager/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_6cd514b3-9326-4e19-bb7d-3245ff87d3bd>
+        a                            core:Log ;
+        core:logMessage              "GET /admin/web/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:20" ;
+        slog:contained               "1.1" , "10.0" , "5.0" , "/77.0.3865.120" , "537.36" , "404 277" ;
+        slog:containedUrlWithParams  "/admin/web/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_7d9edbe3-5d0f-4495-b922-c436c86419a6>
+        a                            core:Log ;
+        core:logMessage              "GET /sqlmanager/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:13" ;
+        slog:contained               "1.1" , "537.36" , "10.0" , "404 277" , "5.0" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/sqlmanager/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_6cbc917f-30ab-4c95-adeb-e50075e5f491>
+        a                            core:Log ;
+        core:logMessage              "GET /administrator/db/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:41" ;
+        slog:contained               "10.0" , "537.36" , "/77.0.3865.120" , "404 277" , "5.0" , "1.1" ;
+        slog:containedUrlWithParams  "/administrator/db/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_6f2a2d3c-9521-4602-8319-3d5567f61989>
+        a                            core:Log ;
+        core:logMessage              "GET /pma/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:10" ;
+        slog:contained               "/77.0.3865.120" , "5.0" , "1.1" , "537.36" , "10.0" , "404 277" ;
+        slog:containedUrlWithParams  "/pma/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_1193ab71-9c54-4102-b0dc-849e386e8338>
+        a                            core:Log ;
+        core:logMessage              "GET /db/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:10" ;
+        slog:contained               "/77.0.3865.120" , "10.0" , "5.0" , "1.1" , "404 277" , "537.36" ;
+        slog:containedUrlWithParams  "/db/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_ccf99f94-4e3d-4786-9ea0-9f796cff6816>
+        a                            core:Log ;
+        core:logMessage              "GET /pma2012/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:54" ;
+        slog:contained               "404 277" , "1.1" , "10.0" , "537.36" , "/77.0.3865.120" , "5.0" ;
+        slog:containedUrlWithParams  "/pma2012/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_98e09500-9c27-4651-aa84-6b102d886cf5>
+        a                            core:Log ;
+        core:logMessage              "GET /MyAdmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:07" ;
+        slog:contained               "1.1" , "/77.0.3865.120" , "404 277" , "10.0" , "537.36" , "5.0" ;
+        slog:containedUrlWithParams  "/MyAdmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_9d145a78-01fa-4be0-84ef-76e16eae5ecd>
+        a                            core:Log ;
+        core:logMessage              "GET /pma2020/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:59" ;
+        slog:contained               "10.0" , "537.36" , "1.1" , "404 277" , "/77.0.3865.120" , "5.0" ;
+        slog:containedUrlWithParams  "/pma2020/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_a93c5767-838c-4894-b841-497c6572bb6c>
+        a                            core:Log ;
+        core:logMessage              "GET /pma2016/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:57" ;
+        slog:contained               "537.36" , "10.0" , "1.1" , "5.0" , "/77.0.3865.120" , "404 277" ;
+        slog:containedUrlWithParams  "/pma2016/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_2f51ebd8-9301-443a-a3f8-81c98653b76e>
+        a                            core:Log ;
+        core:logMessage              "GET /admin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:11" ;
+        slog:contained               "/77.0.3865.120" , "10.0" , "1.1" , "404 277" , "5.0" , "537.36" ;
+        slog:containedUrlWithParams  "/admin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_a9a7a513-04e4-402c-8c42-309ce7d26301>
+        a                            core:Log ;
+        core:logMessage              "GET /mysql/db/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:22" ;
+        slog:contained               "10.0" , "404 277" , "/77.0.3865.120" , "537.36" , "1.1" , "5.0" ;
+        slog:containedUrlWithParams  "/mysql/db/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_17c1b8d7-c898-4839-8777-a004db741fb9>
+        a                            core:Log ;
+        core:logMessage              "GET /program/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:08" ;
+        slog:contained               "1.1" , "/77.0.3865.120" , "404 277" , "10.0" , "5.0" , "537.36" ;
+        slog:containedUrlWithParams  "/program/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_a9eab7b6-1aa7-43a4-a86b-9f630bbe85c6>
+        a                            core:Log ;
+        core:logMessage              "GET /pma2015/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:56" ;
+        slog:contained               "/77.0.3865.120" , "1.1" , "5.0" , "537.36" , "404 277" , "10.0" ;
+        slog:containedUrlWithParams  "/pma2015/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_de4835d5-375d-4c4e-ae6a-2fae739dcbb7>
+        a                            core:Log ;
+        core:logMessage              "GET /PMA2016/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:50" ;
+        slog:contained               "404 277" , "10.0" , "537.36" , "/77.0.3865.120" , "1.1" , "5.0" ;
+        slog:containedUrlWithParams  "/PMA2016/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_ba29344c-3795-400e-999f-2edfa2f64de3>
+        a                            core:Log ;
+        core:logMessage              "GET /phpMyAdmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:49:55" ;
+        slog:contained               "10.0" , "537.36" , "5.0" , "1.1" , "/77.0.3865.120" , "404 277" ;
+        slog:containedUrlWithParams  "/phpMyAdmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_0bee990c-3df3-4d04-a6f6-b3c28a822553>
+        a                            core:Log ;
+        core:logMessage              "GET /admin/pMA/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:21" ;
+        slog:contained               "1.1" , "10.0" , "/77.0.3865.120" , "537.36" , "404 277" , "5.0" ;
+        slog:containedUrlWithParams  "/admin/pMA/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_335227c0-6088-4c9f-b0ad-f61741262665>
+        a                            core:Log ;
+        core:logMessage              "GET /database/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:49:57" ;
+        slog:contained               "404 277" , "537.36" , "10.0" , "1.1" , "5.0" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/database/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_92692b99-4f18-4610-a0a5-e555a9080924>
+        a                            core:Log ;
+        core:logMessage              "GET /phpMyAdmin2/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:44" ;
+        slog:contained               "537.36" , "10.0" , "/77.0.3865.120" , "1.1" , "404 277" , "5.0" ;
+        slog:containedUrlWithParams  "/phpMyAdmin2/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_ed0f6675-47b7-45ff-8979-eef9abf340ca>
+        a                            core:Log ;
+        core:logMessage              "GET /PMA2014/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:49" ;
+        slog:contained               "10.0" , "404 277" , "1.1" , "537.36" , "5.0" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/PMA2014/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_161b6e3e-abc7-4bdb-9cba-295a5f9eefbe>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin2016/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:51:03" ;
+        slog:contained               "404 277" , "1.1" , "/77.0.3865.120" , "537.36" , "10.0" , "5.0" ;
+        slog:containedUrlWithParams  "/phpmyadmin2016/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_2858e1a1-e819-4a50-9dbb-d767ebdf88d1>
+        a                            core:Log ;
+        core:logMessage              "GET /db/websql/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:35" ;
+        slog:contained               "/77.0.3865.120" , "1.1" , "537.36" , "404 277" , "5.0" , "10.0" ;
+        slog:containedUrlWithParams  "/db/websql/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_abb65fd7-b6db-4d82-80f8-4fa47d708843>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/sqladmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:31" ;
+        slog:contained               "5.0" , "/77.0.3865.120" , "404 277" , "537.36" , "1.1" , "10.0" ;
+        slog:containedUrlWithParams  "/sql/sqladmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_a1a9e4f8-9e4e-4931-9e88-67443e785571>
+        a                            core:Log ;
+        core:logMessage              "GET /mysql/dbadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:01" ;
+        slog:contained               "404 277" , "1.1" , "/77.0.3865.120" , "537.36" , "10.0" , "5.0" ;
+        slog:containedUrlWithParams  "/mysql/dbadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_c9679b73-5690-4dd8-97b5-236f4651671c>
+        a                            core:Log ;
+        core:logMessage              "GET /administrator/phpmyadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:39" ;
+        slog:contained               "5.0" , "537.36" , "1.1" , "10.0" , "404 277" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/administrator/phpmyadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_50f6d649-3cc6-4793-9e3c-124f6e785cdc>
+        a                            core:Log ;
+        core:logMessage              "GET /phpmyadmin2019/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:51:05" ;
+        slog:contained               "404 277" , "1.1" , "537.36" , "/77.0.3865.120" , "5.0" , "10.0" ;
+        slog:containedUrlWithParams  "/phpmyadmin2019/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_f66079c8-59f4-4fd7-9b1e-ff096ddb18e5>
+        a                            core:Log ;
+        core:logMessage              "GET /administrator/web/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:41" ;
+        slog:contained               "404 277" , "5.0" , "1.1" , "10.0" , "537.36" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/administrator/web/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_ae3df09b-6894-4e8f-a0a3-92c4864db13d>
+        a                            core:Log ;
+        core:logMessage              "GET /sql/sql-admin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:31" ;
+        slog:contained               "404 277" , "5.0" , "10.0" , "1.1" , "537.36" , "/77.0.3865.120" ;
+        slog:containedUrlWithParams  "/sql/sql-admin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_dbbe9663-b6f4-4bbf-a723-357432263846>
+        a                            core:Log ;
+        core:logMessage              "GET /2phpmyadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:03" ;
+        slog:contained               "537.36" , "1.1" , "5.0" , "10.0" , "/77.0.3865.120" , "404 277" ;
+        slog:containedUrlWithParams  "/2phpmyadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+
+<http://w3id.org/sepses/id/LogEntry_0eb9a63a-9414-4d69-ac63-fb2771c4d41b>
+        a                            core:Log ;
+        core:logMessage              "GET /db/phpmyadmin/index.php?lang=en HTTP/1.1| 404 277 |-| |Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" ;
+        core:timestamp               "2020-03-14T15:50:12" ;
+        slog:contained               "10.0" , "404 277" , "537.36" , "/77.0.3865.120" , "1.1" , "5.0" ;
+        slog:containedUrlWithParams  "/db/phpmyadmin/index.php?lang=en" ;
+        slog:templateId              "7a42a00cf25640edb0804e5c71fab80f024d5758566fabb4f8d33e6941fead3a" ;
+        slog:userIp                  "93.243.136.158" .
+

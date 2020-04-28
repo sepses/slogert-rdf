@@ -1,0 +1,55 @@
+@prefix core:  <http://w3id.org/sepses/vocab/log/core#> .
+@prefix slog:  <http://w3id.org/sepses/vocab/log/slogert#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://w3id.org/sepses/id/LogEntry_69579ffc-02e3-4132-b284-3971f2706160>
+        a                core:Log ;
+        core:logMessage  "AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations" ;
+        core:timestamp   "2020-03-14T11:38:01" ;
+        slog:contained   "4.29" , "2" ;
+        slog:localPid    "2004" ;
+        slog:templateId  "4953bbe2c9cea39b9b6aa00b364b003736f322f1a2cd7c1d25b57514b85b78b0" .
+
+<http://w3id.org/sepses/id/LogEntry_f0a12a39-3974-4c4f-849e-a9ff1493ecca>
+        a                   core:Log ;
+        core:logMessage     "[client 93.243.136.158:35462] script |/var/www/html/index.php| not found or unable to stat sh: 1: /usr/sbin/sendmail: not found" ;
+        core:timestamp      "2020-03-14T15:51:06" ;
+        slog:contained      "1" , "93.243.136.158:35462" ;
+        slog:containedPath  "usr/sbin/sendmail" ;
+        slog:containedUrl   "var/www/html/index.php" ;
+        slog:localPid       "5227" ;
+        slog:templateId     "d14948f605f67bc38ae9d4238e1bf16ca0745f65ba650bb795383343b85c9c5f" .
+
+<http://w3id.org/sepses/id/LogEntry_4f23c57a-8efd-4db4-9fe0-fd736c4ff576>
+        a                   core:Log ;
+        core:logMessage     "AH00094: Command line: |/usr/sbin/apache2| sh: 1: /usr/sbin/sendmail: not found" ;
+        core:timestamp      "2020-03-14T11:42:56" ;
+        slog:contained      "1" ;
+        slog:containedPath  "usr/sbin/sendmail" , "usr/sbin/apache2" ;
+        slog:localPid       "2004" ;
+        slog:templateId     "82cbd0156a95d2350ef20a0a773ecc4fe616741dd9cf03003654b6bbe3920d6d" .
+
+<http://w3id.org/sepses/id/LogEntry_7b8e6821-8a18-46df-ae4d-bb57abc4e1fb>
+        a                   core:Log ;
+        core:logMessage     "AH00094: Command line: |/usr/sbin/apache2|" ;
+        core:timestamp      "2020-03-14T11:38:01" ;
+        slog:containedPath  "usr/sbin/apache2" ;
+        slog:localPid       "2004" ;
+        slog:templateId     "20c5f96a6dad92f7b63c5deaa7725481a5ed3af544218913e1d972cb4af72825" .
+
+<http://w3id.org/sepses/id/LogEntry_dbad83b3-4b8b-4a8b-8fa7-a17378fc2dd5>
+        a                core:Log ;
+        core:logMessage  "AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations" ;
+        core:timestamp   "2020-03-14T11:42:56" ;
+        slog:contained   "2" , "4.29" ;
+        slog:localPid    "2004" ;
+        slog:templateId  "4953bbe2c9cea39b9b6aa00b364b003736f322f1a2cd7c1d25b57514b85b78b0" .
+
+<http://w3id.org/sepses/id/LogEntry_3fd117d0-9c05-40b2-9b01-42f47367dc73>
+        a                 core:Log ;
+        core:logMessage   "AH00171: Graceful restart requested, doing restart AH00558: apache2: Could not reliably determine the server|s fully qualified domain name, using 10.0.0.7. Set the |ServerName| directive globally to suppress this message" ;
+        core:timestamp    "2020-03-14T11:42:56" ;
+        slog:containedIp  "10.0.0.7" ;
+        slog:localPid     "2004" ;
+        slog:templateId   "0f8c391c70f7ea492da7e3bf18121589db24616ce5b81824edf51e6a6e7de261" .
+

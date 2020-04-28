@@ -2,1523 +2,1769 @@
 @prefix slog:  <http://w3id.org/sepses/vocab/log/slogert#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<http://w3id.org/sepses/id/LogEntry_7e06fc88-8a7a-4848-9bca-3f7fbee4bf4d>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T16:32:43" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "24444" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_bb36c8f0-a4eb-4d45-82d3-daa493bea9a6>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T16:20:53" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "23636" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_6f4fc5a4-d9d6-4e4f-aea9-7d98f82c30cc>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T12:46:22" ;
-        slog:contained   "OK" , "ftp_akep" , "ffff:10.0.0.9" ;
-        slog:localPid    "10557" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_2494cec3-818b-40a5-8861-482d8270fd2f>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T17:06:31" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "26648" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_21bbd700-41d2-4b81-ad0f-7d9fa4291688>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:46:10" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "10543" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_d0bd8bfa-e4df-4279-92e6-c5c307d4ceb5>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T17:00:42" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "26296" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_8057733d-0b76-416b-a366-33a657fdaf1c>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:16:02" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "8651" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_d1913b88-b6fc-4b4e-83a5-81bfa690ba3c>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:32:55" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "61432" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_c4c39f89-2a28-4ee1-93c8-1af134c42ddc>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:02:42" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "33939" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_e3f725cc-a76a-4c0d-91bf-a9352624d412>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T16:22:51" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "23773" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_d71e8678-fdce-4d32-bf04-fdf8a49c9907>
-        a                core:Log ;
-        core:logMessage  "[sepses] FAIL DOWNLOAD: Client |::ffff:10.0.0.7|, |/test.txt|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-07T12:21:15" ;
-        slog:contained   "sepses" , "ffff:10.0.0.7" , "|/test.txt|, 0" , "sec" ;
-        slog:localPid    "49708" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_0c92b62a-ea8e-43d7-aee9-90ce9bcdadf2>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:32:29" ;
-        slog:contained   "ftp_jhalley" , "OK" , "ffff:10.0.0.12" ;
-        slog:localPid    "9593" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_2f5daf76-1120-4a1e-9dbc-36b1e9092ba9>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T12:28:44" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "9376" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_c41f10ab-5841-401a-9eaf-e5129066e7ed>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T16:42:03" ;
-        slog:contained   "ftp_akep" , "OK" , "ffff:10.0.0.9" ;
-        slog:localPid    "25125" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_efa72a65-3133-4894-be8a-7b335b7acdf9>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Reports_2020.csv|, 5 bytes, 3.23Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:46:22" ;
-        slog:contained   "DOWNLOAD:" , "|/files/Reports_2020.csv|, 5" , "ffff:10.0.0.9" , "3.23Kbyte/sec" , "ftp_akep" ;
-        slog:localPid    "10562" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_c003d5b3-f325-4d4d-8c7a-20292582644e>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-09T22:15:16" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "7940" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_bef65121-e794-480c-950d-fd0f5f25aa48>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:05:01" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "7506" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_b7c63df1-b6ff-4f58-b29b-780a3b7b1066>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK MKDIR: Client |::ffff:10.0.0.7|, |/files/testfolder|" ;
-        core:timestamp   "2020-03-07T12:11:33" ;
-        slog:contained   "|/files/testfolder|" , "sepses" , "ffff:10.0.0.7" , "MKDIR:" ;
-        slog:localPid    "34706" ;
-        slog:templateId  "a9a9344fbebfc95d1f466ce986e72b7069d8a7abe9b27af13756e23c60964bcb" .
-
-<http://w3id.org/sepses/id/LogEntry_617b6e1e-863c-4219-8dd9-707a3a065c40>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:10:32" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "8092" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_66d353ff-0ac6-4720-a49d-f3b1fc0aeff7>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Report_2020.sh|, 325 bytes, 382.85Kbyte/sec" ;
-        core:timestamp   "2020-03-14T16:39:37" ;
-        slog:contained   "ftp_akep" , "ffff:10.0.0.9" , "DOWNLOAD:" , "|/files/Report_2020.sh|, 325" , "382.85Kbyte/sec" ;
-        slog:localPid    "24987" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_4dbf582a-376b-4a5e-abd4-024b3e0f05fe>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:16:22" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "8678" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_f5078cbe-8366-414e-8f23-dc05bccc0de5>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T17:11:29" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "27035" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_42427ad2-22bc-4893-bd18-59f87ef4c81e>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T23:00:59" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "10710" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_20dfa5ee-ff96-4a96-85d5-5c9e65add339>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T12:46:22" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "10559" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_5d5e3842-4161-40c9-8cd0-644eff2e5cd2>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:05:41" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "7550" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_16f20b22-de75-43c7-a609-b108e8561cc8>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] FAIL LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T17:06:49" ;
-        slog:contained   "ftp_jhalley" , "ffff:10.0.0.12" , "FAIL" ;
-        slog:localPid    "26647" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_c1150033-f3fc-4ec3-aafb-7f36780c3ef7>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T23:04:25" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "10965" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_83b40af1-4d44-46bf-9267-ba8ef33c24ec>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T17:11:45" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "27050" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_4a401979-7908-4997-ad18-9aa858800435>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:31:16" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "9523" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_d9af4058-02da-4a6c-b8f6-a4613820f3d8>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-09T22:15:16" ;
-        slog:contained   "OK" , "sepses" , "ffff:10.0.0.7" ;
-        slog:localPid    "7939" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_6d56dad0-66b9-48da-aed4-f3eb33840561>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:41:16" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "10231" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_88b2e973-91df-4582-b368-12ee47613353>
-        a                core:Log ;
-        core:logMessage  "[sepses] FAIL DOWNLOAD: Client |::ffff:10.0.0.7|, |/open|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-07T12:21:39" ;
-        slog:contained   "ffff:10.0.0.7" , "sepses" , "sec" , "|/open|, 0" ;
-        slog:localPid    "49708" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_e1557a7d-08ef-40ec-9b27-20095f798275>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:33:11" ;
-        slog:contained   "sec" , "|/files/Reports_2019.csv|, 0" , "ftp_jhalley" , "ffff:10.0.0.12" ;
-        slog:localPid    "9595" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_418e4598-4f60-4d3b-a970-0ae6e6eb7a47>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK UPLOAD: Client |::ffff:10.0.0.7|, |/files/again/newfile.txt|, 6 bytes, 0.57Kbyte/sec" ;
-        core:timestamp   "2020-03-09T22:15:16" ;
-        slog:contained   "ffff:10.0.0.7" , "0.57Kbyte/sec" , "sepses" , "UPLOAD:" , "|/files/again/newfile.txt|, 6" ;
-        slog:localPid    "7941" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_615a4cc3-ed9d-4e81-8492-abc77f24aace>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:46:10" ;
-        slog:contained   "ftp_jhalley" , "ffff:10.0.0.12" , "OK" ;
-        slog:localPid    "10541" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_4724178d-8217-47cb-8c5f-d2e300dfea3f>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:30:12" ;
-        slog:contained   "ffff:10.0.0.7" , "OK" , "sepses" ;
-        slog:localPid    "58772" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_c2425a95-d495-4ed1-8a47-36fdff346868>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.4|" ;
-        core:timestamp   "2020-03-14T16:34:29" ;
-        slog:contained   "ffff:10.0.0.4" ;
-        slog:localPid    "24556" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_9d8bd5f2-d739-42fd-9201-1cc3b4be73ed>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T12:14:59" ;
-        slog:contained   "ffff:10.0.0.7" , "OK" , "ftp_admin" ;
-        slog:localPid    "8587" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_b3267da9-60e1-4794-b7aa-5ae7b0923221>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:33:27" ;
-        slog:contained   "|/files/Reports_2019.csv|, 0" , "sec" , "ffff:10.0.0.12" , "ftp_jhalley" ;
-        slog:localPid    "9595" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_3d402a66-c8c8-4cf6-8dc6-161f06b0f436>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:41:04" ;
-        slog:contained   "sec" , "ftp_jhalley" , "ffff:10.0.0.12" , "|/files/Reports_2019.csv|, 0" ;
-        slog:localPid    "10215" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_2e691e48-8c66-4614-b681-fa42a60da70f>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T12:12:40" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "8421" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_408e07e6-ec5e-4268-b96a-e2c83ccb2569>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/bash|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:42:57" ;
-        slog:contained   "sec" , "ftp_jhalley" , "|/files/bash|, 0" , "ffff:10.0.0.12" ;
-        slog:localPid    "10324" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_0c38da07-8785-4c47-8c0d-f8b0bc88eab1>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Report_2020.sh|, 312 bytes, 287.44Kbyte/sec" ;
-        core:timestamp   "2020-03-14T17:07:33" ;
-        slog:contained   "ftp_jhalley" , "287.44Kbyte/sec" , "|/files/Report_2020.sh|, 312" , "ffff:10.0.0.12" , "DOWNLOAD:" ;
-        slog:localPid    "26717" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_549b174d-0434-4080-9ee7-61306f109196>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T16:15:54" ;
-        slog:contained   "ffff:10.0.0.7" , "OK" , "ftp_admin" ;
-        slog:localPid    "22917" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_910f7b7a-7d43-4fe7-8832-f621e82c172a>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:12:14" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "42684" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_2cd488d9-e0b1-4588-9173-d687b213b806>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2020.csv|, 5 bytes, 3.85Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:46:10" ;
-        slog:contained   "3.85Kbyte/sec" , "ftp_jhalley" , "|/files/Reports_2020.csv|, 5" , "ffff:10.0.0.12" , "DOWNLOAD:" ;
-        slog:localPid    "10546" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_71919492-2cda-487a-9a2a-cf802f952319>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK DOWNLOAD: Client |::ffff:10.0.0.6|, |/files/Report_2020.sh|, 312 bytes, 193.45Kbyte/sec" ;
-        core:timestamp   "2020-03-14T17:11:45" ;
-        slog:contained   "193.45Kbyte/sec" , "DOWNLOAD:" , "ftp_admin" , "|/files/Report_2020.sh|, 312" , "ffff:10.0.0.6" ;
-        slog:localPid    "27051" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_90c6944b-78e0-49e7-a28a-ab93f8cd6f8b>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T16:42:00" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "25126" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_8e863523-adc2-4e57-b22e-2262bd7302d5>
-        a                core:Log ;
-        core:logMessage  "[sepses] FAIL LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T11:54:59" ;
-        slog:contained   "FAIL" , "ffff:10.0.0.7" , "sepses" ;
-        slog:localPid    "26607" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_6ce79519-a345-40d2-9c2b-f54f8de9e03e>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:46:10" ;
-        slog:contained   "ftp_jhalley" , "ffff:10.0.0.12" , "OK" ;
-        slog:localPid    "10542" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_40f23052-a510-4735-8e4e-a596557f4fcb>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] FAIL DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Reports_2020.csv|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:33:46" ;
-        slog:contained   "sec" , "ftp_akep" , "|/files/Reports_2020.csv|, 0" , "ffff:10.0.0.9" ;
-        slog:localPid    "9667" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_fbaf48e3-8c0a-4a2e-ae7d-a09b2be6e835>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:04:33" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "7478" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_60987671-ab62-4342-8d4e-91da263a7559>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T16:20:54" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "23638" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_7af513bc-9aab-43b6-ad33-61cf425328f4>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T23:03:11" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "10865" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_2e80de51-beca-4793-9f98-eca7e6c29f9b>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T16:35:13" ;
-        slog:contained   "ftp_akep" , "OK" , "ffff:10.0.0.9" ;
-        slog:localPid    "24585" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_679674fa-abfc-4c21-a703-29c637f9c39b>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:49:51" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "76810" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_dd0186ba-e87e-42e6-86d3-85f24094a742>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/test2.txt|, 11 bytes, 0.95Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:43:07" ;
-        slog:contained   "ffff:10.0.0.12" , "|/files/test2.txt|, 11" , "ftp_jhalley" , "0.95Kbyte/sec" , "DOWNLOAD:" ;
-        slog:localPid    "10324" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_335e7248-5d5d-406d-958f-3d2fdb71cde4>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:41:16" ;
-        slog:contained   "OK" , "ftp_jhalley" , "ffff:10.0.0.12" ;
-        slog:localPid    "10230" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_7f23bca8-7239-4915-970c-7a9c5719a973>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T17:15:38" ;
-        slog:contained   "ffff:10.0.0.7" , "OK" , "ftp_admin" ;
-        slog:localPid    "27299" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_a4d2a086-e483-4ab8-8dd5-60b885455297>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:05:35" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "7544" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_2a5d66c1-b26f-4ded-9807-1830e30359bf>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T17:07:33" ;
-        slog:contained   "ffff:10.0.0.12" , "OK" , "ftp_jhalley" ;
-        slog:localPid    "26697" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_5308d85f-d2f5-4e90-accb-2e43df8a45b1>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK LOGIN: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T22:58:13" ;
-        slog:contained   "OK" , "sepses" , "ffff:10.0.0.9" ;
-        slog:localPid    "10517" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_e9a483a4-17e8-47c6-8ed2-0949390b8261>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:41:04" ;
-        slog:contained   "ftp_jhalley" , "OK" , "ffff:10.0.0.12" ;
-        slog:localPid    "10213" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_77ec127c-8d54-4104-83f5-843afb80ed9c>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Reports_2019.csv|, 10 bytes, 1.78Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:46:22" ;
-        slog:contained   "1.78Kbyte/sec" , "ftp_akep" , "|/files/Reports_2019.csv|, 10" , "DOWNLOAD:" , "ffff:10.0.0.9" ;
-        slog:localPid    "10561" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_868755a9-4c2b-4693-8c7a-b21da3173205>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T12:28:44" ;
-        slog:contained   "ftp_akep" , "OK" , "ffff:10.0.0.9" ;
-        slog:localPid    "9375" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_45f228b5-b83b-4482-9828-32705cd4da29>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T16:21:10" ;
-        slog:contained   "ffff:10.0.0.7" , "ftp_admin" , "OK" ;
-        slog:localPid    "23637" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_64dc760e-81fa-49a2-b76f-828a3536a289>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK UPLOAD: Client |::ffff:10.0.0.9|, |/files/bash|, 1118122 bytes, 79124.35Kbyte/sec" ;
-        core:timestamp   "2020-03-09T23:03:11" ;
-        slog:contained   "ffff:10.0.0.9" , "ftp_akep" , "79124.35Kbyte/sec" , "|/files/bash|, 1118122" , "UPLOAD:" ;
-        slog:localPid    "10866" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_a9c234e9-7299-4ee3-b401-bf8a8030fc77>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T17:06:30" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "26646" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_276bc2d4-a145-4655-9db2-07fad2eb2bfb>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:31:16" ;
-        slog:contained   "ffff:10.0.0.12" , "ftp_jhalley" , "OK" ;
-        slog:localPid    "9522" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_db69c3dd-5ce8-4689-8a91-5a8636100d1d>
-        a                core:Log ;
-        core:logMessage  "[ftp_adminwp] OK LOGIN: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T23:15:16" ;
-        slog:contained   "OK" , "ffff:10.0.0.9" , "ftp_adminwp" ;
-        slog:localPid    "11995" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_e1d03b2c-43d1-46ca-91ac-7db722d6c1af>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:32:29" ;
-        slog:contained   "ffff:10.0.0.12" , "ftp_jhalley" , "OK" ;
-        slog:localPid    "9591" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_8337e69a-87c9-4d4c-8351-9939fe74f524>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T22:58:13" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "10518" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_2cc2ed49-9bb0-4cf2-8d40-9daccb267d5f>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T12:33:46" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "9666" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_9f3d609e-5b3b-4be3-bcb2-75e078f86939>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] FAIL LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T12:12:42" ;
-        slog:contained   "FAIL" , "ftp_admin" , "ffff:10.0.0.7" ;
-        slog:localPid    "8420" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_949ed4e0-a3ed-4a84-a848-2eaccdc83895>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:46:10" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "10544" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_74f1456b-2e8b-46de-b1ec-f039107298d0>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/test2.txt|, 11 bytes, 1.06Kbyte/sec" ;
-        core:timestamp   "2020-03-09T23:03:51" ;
-        slog:contained   "|/files/test2.txt|, 11" , "ffff:10.0.0.9" , "DOWNLOAD:" , "1.06Kbyte/sec" , "ftp_akep" ;
-        slog:localPid    "10866" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_2ae0dd73-e30f-4b9f-bbfc-ea3556a1db1c>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T17:07:21" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "26698" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_a9ae8245-c08c-4a20-8f7b-3f16d186691d>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:50:11" ;
-        slog:contained   "OK" , "ffff:10.0.0.7" , "sepses" ;
-        slog:localPid    "76961" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_94d5ba9b-0eab-4554-a051-3deaf96f4b40>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T16:34:49" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "24586" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_4f732ce9-a795-4c9f-96db-91a5537dba5d>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK DELETE: Client |::ffff:10.0.0.7|, |/files/Report_2020.sh|" ;
-        core:timestamp   "2020-03-14T17:15:50" ;
-        slog:contained   "DELETE:" , "ffff:10.0.0.7" , "ftp_admin" , "|/files/Report_2020.sh|" ;
-        slog:localPid    "27301" ;
-        slog:templateId  "a9a9344fbebfc95d1f466ce986e72b7069d8a7abe9b27af13756e23c60964bcb" .
-
-<http://w3id.org/sepses/id/LogEntry_762e0236-425b-4277-8356-2aeab50c8c19>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T16:20:42" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "23562" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_e95019a4-0963-4348-ab4c-077c9f901b4c>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:50:00" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "76962" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_d066b449-54d2-42fa-a429-0783e9e4e9cf>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T12:46:22" ;
-        slog:contained   "OK" , "ftp_akep" , "ffff:10.0.0.9" ;
-        slog:localPid    "10558" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_7aa09143-bf1e-4e47-946e-dccba13ba420>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK UPLOAD: Client |::ffff:10.0.0.6|, |/files/Reports_2019.csv|, 10 bytes, 1.48Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:26:40" ;
-        slog:contained   "UPLOAD:" , "|/files/Reports_2019.csv|, 10" , "ftp_admin" , "ffff:10.0.0.6" , "1.48Kbyte/sec" ;
-        slog:localPid    "9251" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_2194efb2-2bf5-4ef6-a46f-e19ac8c42547>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T17:15:38" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "27300" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_0d424f2c-aff8-4bf6-aa83-8bded46af7c1>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T11:52:30" ;
-        slog:contained   "sepses" , "ffff:10.0.0.7" , "OK" ;
-        slog:localPid    "24294" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_9b573979-e089-452e-8f04-7a8b77a70da9>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:44:33" ;
-        slog:contained   "ffff:10.0.0.7" , "sepses" , "OK" ;
-        slog:localPid    "71824" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_7ff72047-e244-491f-8cab-f3f1af05149b>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:16:02" ;
-        slog:contained   "ffff:10.0.0.6" , "OK" , "ftp_admin" ;
-        slog:localPid    "8650" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_814b6c0d-bdf0-475d-a553-00ecc9715700>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Report_2020.sh|, 325 bytes, 191.66Kbyte/sec" ;
-        core:timestamp   "2020-03-14T16:42:03" ;
-        slog:contained   "DOWNLOAD:" , "|/files/Report_2020.sh|, 325" , "ffff:10.0.0.9" , "191.66Kbyte/sec" , "ftp_akep" ;
-        slog:localPid    "25130" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_e82f53ce-a08b-4a5d-854a-45ae65dc7101>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T16:30:13" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "24284" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_669c3f9d-8dc3-457a-8f6f-f8026355c9e4>
-        a                core:Log ;
-        core:logMessage  "[ftp_jdoe] OK LOGIN: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T16:30:31" ;
-        slog:contained   "OK" , "ftp_jdoe" , "ffff:10.0.0.6" ;
-        slog:localPid    "24285" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_a9c7fb9b-24be-48a6-b163-6bde05fa7a27>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T23:04:19" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "10956" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_c87e9e0d-4999-496c-ba5e-cdba477d09ab>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK UPLOAD: Client |::ffff:10.0.0.7|, |/files/Report_2020.sh|, 325 bytes, 14.53Kbyte/sec" ;
-        core:timestamp   "2020-03-14T16:16:20" ;
-        slog:contained   "14.53Kbyte/sec" , "|/files/Report_2020.sh|, 325" , "ftp_admin" , "ffff:10.0.0.7" , "UPLOAD:" ;
-        slog:localPid    "22947" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_6930b1b2-9789-4dc3-9ab4-73d577d7e486>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] FAIL LOGIN: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:10:04" ;
-        slog:contained   "FAIL" , "ftp_admin" , "ffff:10.0.0.6" ;
-        slog:localPid    "8055" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_0b1240ab-f3d0-46c0-98c3-c6c1fdcc7eab>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:41:29" ;
-        slog:contained   "sec" , "ftp_jhalley" , "|/files/Reports_2019.csv|, 0" , "ffff:10.0.0.12" ;
-        slog:localPid    "10215" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_cbe17053-ede3-45d3-b311-6fb7f5cbae5f>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T11:52:10" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "24301" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_c20f911e-00ac-4cfb-b2e7-c3cd9038734a>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:30:54" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "9499" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_64dd0293-5d33-43b2-866e-efb49fae4cbd>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:32:29" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "9592" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_14d5f3ea-e9a2-4a8b-95f1-144b9717f6bf>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T16:33:07" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "24470" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_51360f1a-7077-499e-816e-7fed4c73ff3f>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:05:07" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "7518" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_354f7178-9dfa-4a7d-8a37-47a0ecb47077>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:32:29" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "9594" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_60496f3b-5c3a-4499-bd02-5a25b0d89612>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-09T22:14:26" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "7871" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_263d8fa8-a744-4f02-97c3-1693b830bcb0>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T23:01:18" ;
-        slog:contained   "ftp_akep" , "ffff:10.0.0.9" , "OK" ;
-        slog:localPid    "10735" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_d7bdf4c1-641a-4c02-a88d-dea65c25d287>
-        a                core:Log ;
-        core:logMessage  "[ftp_jdoe] FAIL LOGIN: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T16:33:27" ;
-        slog:contained   "ffff:10.0.0.6" , "FAIL" , "ftp_jdoe" ;
-        slog:localPid    "24469" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_0eb7e4ad-a9ef-4837-935c-538572ad9aae>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:05:53" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "7564" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_2c12c83f-141e-4932-bd90-64c19eb2af5d>
-        a                core:Log ;
-        core:logMessage  "[ftp_jdoe] FAIL DOWNLOAD: Client |::ffff:10.0.0.6|, |/files/Report_2020.sh|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-14T16:30:31" ;
-        slog:contained   "sec" , "ffff:10.0.0.6" , "ftp_jdoe" , "|/files/Report_2020.sh|, 0" ;
-        slog:localPid    "24310" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_640e4bc7-41e3-4474-9d72-77d2a751f54a>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T16:33:06" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "24464" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_a1559d14-e078-440d-988b-0e61059a72cd>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] FAIL LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:30:55" ;
-        slog:contained   "FAIL" , "ftp_jhalley" , "ffff:10.0.0.12" ;
-        slog:localPid    "9498" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_c1e9573d-c99a-4d0b-a5ed-977a0d78c925>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2020.csv|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:33:11" ;
-        slog:contained   "|/files/Reports_2020.csv|, 0" , "sec" , "ffff:10.0.0.12" , "ftp_jhalley" ;
-        slog:localPid    "9596" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_6266e7d7-d3cc-4a9f-859a-d1574fa8900f>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:26:40" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "9248" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_2dc3dfd7-1ee3-4e1d-8b52-b2118a1dc825>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] FAIL DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/t.txt|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-09T23:03:46" ;
-        slog:contained   "sec" , "ffff:10.0.0.9" , "ftp_akep" , "|/files/t.txt|, 0" ;
-        slog:localPid    "10866" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_4f6eac2b-be06-4343-800b-e65eb628ac1a>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T16:38:07" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "24782" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_32077d59-283b-4ed6-bf1f-16e58499e914>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:10:02" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "8056" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_d19b30c7-3282-4e1b-8d0d-95781fd2ae98>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-09T22:14:26" ;
-        slog:contained   "sepses" , "OK" , "ffff:10.0.0.7" ;
-        slog:localPid    "7866" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_bc19ddc1-554a-470d-bb01-0b4c66c53393>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T23:03:11" ;
-        slog:contained   "ftp_akep" , "ffff:10.0.0.9" , "OK" ;
-        slog:localPid    "10864" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_53ce1af8-af22-4929-b720-be7805cc5e90>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:32:29" ;
-        slog:contained   "sec" , "|/files/Reports_2019.csv|, 0" , "ftp_jhalley" , "ffff:10.0.0.12" ;
-        slog:localPid    "9595" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_4aadc6a3-9bd3-40e8-883a-779b76dcba55>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T23:00:59" ;
-        slog:contained   "ftp_akep" , "ffff:10.0.0.9" , "OK" ;
-        slog:localPid    "10709" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_f4d39f11-ef34-4801-87a9-0f3dd7ac1924>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK UPLOAD: Client |::ffff:10.0.0.7|, |/files/t.txt|, 8 bytes, 15.44Kbyte/sec" ;
-        core:timestamp   "2020-03-07T12:36:22" ;
-        slog:contained   "|/files/t.txt|, 8" , "sepses" , "ffff:10.0.0.7" , "UPLOAD:" , "15.44Kbyte/sec" ;
-        slog:localPid    "61614" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_6a9a1fed-39c4-4e07-805d-179ee72856b8>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:12:26" ;
-        slog:contained   "OK" , "sepses" , "ffff:10.0.0.7" ;
-        slog:localPid    "42683" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_1fb16cae-b341-4c60-a12a-7782b6a69abe>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T12:46:22" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "10560" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_8e33d8af-ba09-4881-ad28-158b02992ec2>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T23:14:33" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "11878" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_af207b4d-5652-4727-88f9-e16bfcda6a8f>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T16:32:42" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "24442" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_f4fd2602-25cc-407e-bf6c-07fb00e4533e>
-        a                core:Log ;
-        core:logMessage  "[ftp_jdoe] OK LOGIN: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:10:32" ;
-        slog:contained   "OK" , "ftp_jdoe" , "ffff:10.0.0.6" ;
-        slog:localPid    "8091" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_d203a0e0-abdb-4395-a020-f2afa021e1a1>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:07:51" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "7832" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_e5e692fd-a06b-4352-9f6f-612541c6f4cf>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T16:38:08" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "24788" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_ea0b0029-acb2-4465-892e-276e20e083fe>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:26:40" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "9249" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_24218fed-ba0a-4c09-b372-eabbae7ef59a>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:30:01" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "58773" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_e00a7e93-a213-4878-9541-cca0581b58c7>
-        a                core:Log ;
-        core:logMessage  "[sepses] FAIL DOWNLOAD: Client |::ffff:10.0.0.7|, |/ftp/files/test2.txt|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-07T12:20:11" ;
-        slog:contained   "sec" , "|/ftp/files/test2.txt|, 0" , "sepses" , "ffff:10.0.0.7" ;
-        slog:localPid    "49708" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_6c16add0-620e-4b6c-9d23-ea96760ebf56>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.4|" ;
-        core:timestamp   "2020-03-14T16:34:30" ;
-        slog:contained   "ffff:10.0.0.4" ;
-        slog:localPid    "24558" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_9b648a10-3c28-43f4-88c0-1531ca062967>
-        a                core:Log ;
-        core:logMessage  "[ftp_jdoe] OK LOGIN: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T16:32:51" ;
-        slog:contained   "ffff:10.0.0.6" , "ftp_jdoe" , "OK" ;
-        slog:localPid    "24443" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_3c4a5678-d351-4a89-8191-af9abe29246a>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T17:00:41" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "26294" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_a580a55a-8e29-4de1-8674-5c8fde6158b3>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:38:19" ;
-        slog:contained   "ffff:10.0.0.12" , "ftp_jhalley" , "OK" ;
-        slog:localPid    "9970" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_ac7a48d2-cdfc-478a-bc1f-9640f3158eac>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T17:00:15" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "26257" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_b5f89133-7043-4305-907b-2527d89cf925>
-        a                core:Log ;
-        core:logMessage  "[ftp_jdoe] FAIL DOWNLOAD: Client |::ffff:10.0.0.6|, |/files/Report_2020.sh|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-14T16:32:51" ;
-        slog:contained   "sec" , "ffff:10.0.0.6" , "|/files/Report_2020.sh|, 0" , "ftp_jdoe" ;
-        slog:localPid    "24450" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_5918af1a-0f71-4c83-b4af-48a145ba7e0a>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2020.csv|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:32:29" ;
-        slog:contained   "ffff:10.0.0.12" , "sec" , "ftp_jhalley" , "|/files/Reports_2020.csv|, 0" ;
-        slog:localPid    "9596" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_c7db7182-6fa9-42a3-bab2-0f562e8db408>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T11:54:42" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "26614" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_eb76eba4-d8e3-4ac7-aacc-189f3168cc54>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:33:07" ;
-        slog:contained   "ffff:10.0.0.7" , "OK" , "sepses" ;
-        slog:localPid    "61431" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_469e6670-c1a1-4866-9a7a-76d1e2896b9b>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T23:01:18" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "10736" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_5d7c251f-3637-45bf-ba25-2af06d11968d>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.4|" ;
-        core:timestamp   "2020-03-14T16:34:30" ;
-        slog:contained   "OK" , "ftp_admin" , "ffff:10.0.0.4" ;
-        slog:localPid    "24557" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_822a4f54-b783-43c7-9819-09cd3bf1fae1>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T12:33:46" ;
-        slog:contained   "ffff:10.0.0.9" , "ftp_akep" , "OK" ;
-        slog:localPid    "9665" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_d8289f53-5e2c-46fa-929d-c60a11ea286e>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:16:22" ;
-        slog:contained   "ftp_admin" , "ffff:10.0.0.6" , "OK" ;
-        slog:localPid    "8677" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_f07b933d-8012-49e1-81f3-00bdba7be32b>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:42:57" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "10323" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_94e7c613-df4b-42c2-97ca-18423ebc2116>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK UPLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2020.csv|, 5 bytes, 1.16Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:46:39" ;
-        slog:contained   "UPLOAD:" , "ffff:10.0.0.12" , "1.16Kbyte/sec" , "ftp_jhalley" , "|/files/Reports_2020.csv|, 5" ;
-        slog:localPid    "10545" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_617f8a7a-8563-4286-93ea-6ba0803509cc>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:03:08" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "34344" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_2e68e018-b9b1-492d-9612-95b554c8e9b8>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T16:15:54" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "22918" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_64e95acc-a1d7-4fe5-9c6f-02612454aee3>
-        a                core:Log ;
-        core:logMessage  "[sepses] FAIL DOWNLOAD: Client |::ffff:10.0.0.7|, |/test.txt|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-07T12:21:29" ;
-        slog:contained   "sec" , "ffff:10.0.0.7" , "|/test.txt|, 0" , "sepses" ;
-        slog:localPid    "49708" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_31e38bee-e4df-456c-8a92-a92807f9aefe>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:07:57" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "7838" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_6b7dff16-4142-47c4-8245-ea27bed1d4f0>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T16:34:48" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "24584" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_6a97d9de-a09c-4003-a9d2-cb7cb1b5e6b0>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:38:19" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "9971" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_3f139c91-ad5b-46af-bb4f-2d998b7710c6>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.4|" ;
-        core:timestamp   "2020-03-14T16:34:15" ;
-        slog:contained   "ffff:10.0.0.4" ;
-        slog:localPid    "24536" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_52125081-7994-430c-b0ff-b2a1ef5089cd>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK UPLOAD: Client |::ffff:10.0.0.6|, |/files/Reports_2020.csv|, 5 bytes, 0.81Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:26:40" ;
-        slog:contained   "|/files/Reports_2020.csv|, 5" , "ftp_admin" , "0.81Kbyte/sec" , "ffff:10.0.0.6" , "UPLOAD:" ;
-        slog:localPid    "9250" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_6322157e-ecd0-4efe-81d0-0db7467836ea>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T16:37:00" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "24715" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_fbc44cce-3e89-4b4e-9ecd-1c9d1099a893>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T17:00:15" ;
-        slog:contained   "OK" , "ffff:10.0.0.7" , "ftp_admin" ;
-        slog:localPid    "26256" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_1d0b9e1d-9b75-41e3-bb03-7d472818d2f1>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T16:22:50" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "23771" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_5127c5d9-aa49-486d-a29a-b25ced201edd>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK DOWNLOAD: Client |::ffff:10.0.0.4|, |/files/Report_2020.sh|, 325 bytes, 103.72Kbyte/sec" ;
-        core:timestamp   "2020-03-14T16:34:30" ;
-        slog:contained   "103.72Kbyte/sec" , "|/files/Report_2020.sh|, 325" , "ffff:10.0.0.4" , "ftp_admin" , "DOWNLOAD:" ;
-        slog:localPid    "24559" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_481b814a-236f-49c2-8617-b5f7348de41f>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T16:30:14" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "24286" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_a0b115cc-300b-4c65-837e-a08b875fd87e>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T17:07:20" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "26696" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_ee51fd65-3cca-474b-896f-baebab689572>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:04:39" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "7487" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_f0c4d32d-2ad5-42c8-a084-3c6926fb1510>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:20:00" ;
-        slog:contained   "OK" , "ffff:10.0.0.7" , "sepses" ;
-        slog:localPid    "49486" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_c56da2ed-6db8-4a33-8969-6114558b17b7>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/bash|, 1118122 bytes, 45092.55Kbyte/sec" ;
-        core:timestamp   "2020-03-09T23:03:37" ;
-        slog:contained   "45092.55Kbyte/sec" , "DOWNLOAD:" , "ftp_akep" , "|/files/bash|, 1118122" , "ffff:10.0.0.9" ;
-        slog:localPid    "10866" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_211a6e28-7504-46f1-97ab-275e2387cf0f>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:29:11" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "9410" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_0e2ee23c-ec28-4a06-9517-d55dadf05f99>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:19:45" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "49487" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_66b41b50-f500-453e-b4e6-e40b37106489>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:42:57" ;
-        slog:contained   "OK" , "ffff:10.0.0.12" , "ftp_jhalley" ;
-        slog:localPid    "10322" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_6b41d3bb-14f1-4351-b305-5d3bcc4b6c17>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T16:36:59" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "24713" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_082b896b-a61f-4f92-b9e6-dd111f472672>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK UPLOAD: Client |::ffff:10.0.0.7|, |/files/Report_2020.sh|, 312 bytes, 271.32Kbyte/sec" ;
-        core:timestamp   "2020-03-14T17:00:20" ;
-        slog:contained   "|/files/Report_2020.sh|, 312" , "UPLOAD:" , "ftp_admin" , "271.32Kbyte/sec" , "ffff:10.0.0.7" ;
-        slog:localPid    "26259" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_dc5edb26-4013-4be8-a0fe-54093e1d00f4>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T16:39:37" ;
-        slog:contained   "ftp_akep" , "ffff:10.0.0.9" , "OK" ;
-        slog:localPid    "24787" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_d4fb8d01-db9c-4325-b0ac-b6c85f179e9e>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:28:24" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "9354" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_2af0fccc-e645-44dd-b6b9-a77435cc456e>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Report_2020.sh|, 312 bytes, 312.18Kbyte/sec" ;
-        core:timestamp   "2020-03-14T17:00:45" ;
-        slog:contained   "312.18Kbyte/sec" , "ffff:10.0.0.9" , "DOWNLOAD:" , "|/files/Report_2020.sh|, 312" , "ftp_akep" ;
-        slog:localPid    "26297" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_3f2755f5-6309-44f5-8538-6cc7775c4176>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T17:11:29" ;
-        slog:contained   "OK" , "ftp_admin" , "ffff:10.0.0.6" ;
-        slog:localPid    "27034" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_d5ea130c-6fae-4679-901b-14af17b48f30>
-        a                core:Log ;
-        core:logMessage  "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:03:32" ;
-        slog:contained   "sepses" , "OK" , "ffff:10.0.0.7" ;
-        slog:localPid    "34343" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_debd94f6-b968-4619-a4ba-a78aa347173a>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-14T17:00:45" ;
-        slog:contained   "ftp_akep" , "OK" , "ffff:10.0.0.9" ;
-        slog:localPid    "26295" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_bc48acd0-6f11-4332-bcc7-927f080e0c68>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T23:15:16" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "11997" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_41bf5ff6-0d13-461c-bacd-ed70256179a6>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:26:40" ;
-        slog:contained   "ftp_admin" , "OK" , "ffff:10.0.0.6" ;
-        slog:localPid    "9246" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_e7cffb0e-305d-4599-a47e-6c7fc6f22812>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:26:40" ;
-        slog:contained   "OK" , "ffff:10.0.0.6" , "ftp_admin" ;
-        slog:localPid    "9247" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_6e2c2935-3285-43c2-a33f-3312acf5727c>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.9|" ;
-        core:timestamp   "2020-03-09T23:14:27" ;
-        slog:contained   "ffff:10.0.0.9" ;
-        slog:localPid    "11869" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_2125f5ec-d18e-44ce-920f-ccb9f74c55f0>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:38:19" ;
-        slog:contained   "ffff:10.0.0.12" , "sec" , "|/files/Reports_2019.csv|, 0" , "ftp_jhalley" ;
-        slog:localPid    "9972" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_3b89c209-bac6-4f23-8c2c-0547dded45af>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] FAIL LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:28:25" ;
-        slog:contained   "ftp_jhalley" , "FAIL" , "ffff:10.0.0.12" ;
-        slog:localPid    "9353" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_df944c32-3376-4c62-920d-3e41f197cb8f>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] FAIL DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/t.txt|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-09T23:01:18" ;
-        slog:contained   "ffff:10.0.0.9" , "|/files/t.txt|, 0" , "sec" , "ftp_akep" ;
-        slog:localPid    "10737" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_44e8c504-28d3-40d1-bf10-3eaacefe95f9>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-07T12:44:22" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "71825" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_1aa9876b-4e6f-48e2-8ed2-ac100232f0d4>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T16:16:20" ;
-        slog:contained   "OK" , "ftp_admin" , "ffff:10.0.0.7" ;
-        slog:localPid    "22945" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_d56b466d-5ed8-4cb9-885e-0327ad4709ab>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] FAIL LOGIN: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:29:13" ;
-        slog:contained   "ftp_jhalley" , "FAIL" , "ffff:10.0.0.12" ;
-        slog:localPid    "9409" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_acf26079-fb79-4555-9250-116e658d36e6>
-        a                core:Log ;
-        core:logMessage  "[ftp_jhalley] OK DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 10 bytes, 4.60Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:46:10" ;
-        slog:contained   "DOWNLOAD:" , "4.60Kbyte/sec" , "ffff:10.0.0.12" , "ftp_jhalley" , "|/files/Reports_2019.csv|, 10" ;
-        slog:localPid    "10545" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_2d8952ac-acd4-44ca-b2c7-c126d48e2b1e>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK DOWNLOAD: Client |::ffff:10.0.0.7|, |/files/Report_2020.sh|, 325 bytes, 286.71Kbyte/sec" ;
-        core:timestamp   "2020-03-14T16:21:10" ;
-        slog:contained   "|/files/Report_2020.sh|, 325" , "286.71Kbyte/sec" , "ffff:10.0.0.7" , "DOWNLOAD:" , "ftp_admin" ;
-        slog:localPid    "23658" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_5bdf8ca0-bf35-423c-90f2-e2f526d6dbc3>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T16:16:20" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "22946" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_1001b6a7-c909-4f83-a373-64e04b55b4bc>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.12|" ;
-        core:timestamp   "2020-03-14T12:41:04" ;
-        slog:contained   "ffff:10.0.0.12" ;
-        slog:localPid    "10214" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_b2cc10a4-098d-4800-bc2d-f8bb61aa7714>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T12:05:59" ;
-        slog:contained   "ffff:10.0.0.6" ;
-        slog:localPid    "7570" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
-
-<http://w3id.org/sepses/id/LogEntry_18be54d8-ac42-4e98-87c6-6ddeecfcaadd>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] OK UPLOAD: Client |::ffff:10.0.0.9|, |/files/Reports_2019.csv|, 10 bytes, 5.15Kbyte/sec" ;
-        core:timestamp   "2020-03-14T12:46:33" ;
-        slog:contained   "ffff:10.0.0.9" , "|/files/Reports_2019.csv|, 10" , "ftp_akep" , "5.15Kbyte/sec" , "UPLOAD:" ;
-        slog:localPid    "10561" ;
-        slog:templateId  "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
-
-<http://w3id.org/sepses/id/LogEntry_8a0e7fc8-2d40-4c80-81e7-211f66f0209c>
-        a                core:Log ;
-        core:logMessage  "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.6|" ;
-        core:timestamp   "2020-03-14T17:11:45" ;
-        slog:contained   "ftp_admin" , "OK" , "ffff:10.0.0.6" ;
-        slog:localPid    "27049" ;
-        slog:templateId  "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
-
-<http://w3id.org/sepses/id/LogEntry_5792a5b4-5abd-48e9-9416-eb0e4d0d111b>
-        a                core:Log ;
-        core:logMessage  "[ftp_akep] FAIL DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Report_2020.sh|, 0.00Kbyte/sec" ;
-        core:timestamp   "2020-03-14T16:35:13" ;
-        slog:contained   "|/files/Report_2020.sh|, 0" , "ftp_akep" , "ffff:10.0.0.9" , "sec" ;
-        slog:localPid    "24608" ;
-        slog:templateId  "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
-
-<http://w3id.org/sepses/id/LogEntry_9f9f1d06-8a55-47ef-a3bd-9dbe1d034d2b>
-        a                core:Log ;
-        core:logMessage  "CONNECT: Client |::ffff:10.0.0.7|" ;
-        core:timestamp   "2020-03-14T12:14:59" ;
-        slog:contained   "ffff:10.0.0.7" ;
-        slog:localPid    "8588" ;
-        slog:templateId  "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+<http://w3id.org/sepses/id/LogEntry_cf6a5eee-9499-4503-a443-6623d5c82427>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:26:40" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "9248" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_b179b71e-441a-4af4-af1e-8e031922ec5f>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:29:11" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9410" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_b99a3987-5a80-479d-bb6c-58ae75c10161>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:30:12" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "58772" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_e9665e66-0711-4934-bb3c-17b3a92a487c>
+        a                           core:Log ;
+        core:logMessage             "[sepses] FAIL LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T11:54:59" ;
+        slog:contained              "FAIL" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "26607" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_7c8f3e9e-3016-45fe-84f2-54bf2abaf35d>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jdoe] OK LOGIN: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T16:32:51" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_jdoe" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "24443" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_25cb88dd-9178-4c84-a3ff-ea1fecd4ca3f>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK MKDIR: Client |::ffff:10.0.0.7|, |/files/testfolder|" ;
+        core:timestamp              "2020-03-07T12:11:33" ;
+        slog:contained              "MKDIR:" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:containedPath          "|/files/testfolder|" ;
+        slog:localPid               "34706" ;
+        slog:templateId             "a9a9344fbebfc95d1f466ce986e72b7069d8a7abe9b27af13756e23c60964bcb" .
+
+<http://w3id.org/sepses/id/LogEntry_3c23ca75-9f7e-477d-9e16-f4733a14ef2d>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:32:29" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedUrl           "|/files/Reports_2019.csv|, 0" ;
+        slog:localPid               "9595" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_c218d624-81d5-4189-ab78-adc554ac2154>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] FAIL LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T17:06:49" ;
+        slog:contained              "FAIL" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "26647" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_7611fe25-f13d-42a5-9fdd-bd7ec206d123>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:05:59" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "7570" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_1fce3894-2f08-464b-9b78-d2c76b128ee2>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T23:14:33" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "11878" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_81c4da22-5639-4c58-b3ab-91b265512071>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:10:32" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "8092" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_0e437d22-092b-4e9c-8de9-44f41f09ca62>
+        a                           core:Log ;
+        core:logMessage             "[sepses] FAIL DOWNLOAD: Client |::ffff:10.0.0.7|, |/ftp/files/test2.txt|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-07T12:20:11" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:containedUrl           "|/ftp/files/test2.txt|, 0" ;
+        slog:localPid               "49708" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_072de6f8-cdcc-4526-9098-fdef84f8c880>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T16:33:07" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "24470" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_7eb92f24-9bbe-475e-bb19-780e0f8a40ed>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 10 bytes, 4.60Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:46:10" ;
+        slog:contained              "|/files/Reports_2019.csv|, 10" , "DOWNLOAD:" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedPath          "4.60Kbyte/sec" ;
+        slog:localPid               "10545" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_ca7661b4-a6d2-4061-987d-b538a3d1eaef>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK UPLOAD: Client |::ffff:10.0.0.7|, |/files/Report_2020.sh|, 312 bytes, 271.32Kbyte/sec" ;
+        core:timestamp              "2020-03-14T17:00:20" ;
+        slog:contained              "UPLOAD:" , "|/files/Report_2020.sh|, 312" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:containedPath          "271.32Kbyte/sec" ;
+        slog:localPid               "26259" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_5c3a8e69-4051-41be-a2b2-f4c0e3b94559>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:33:27" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedUrl           "|/files/Reports_2019.csv|, 0" ;
+        slog:localPid               "9595" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_3ca67f72-474c-4561-9c20-ec38acca896d>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK UPLOAD: Client |::ffff:10.0.0.7|, |/files/again/newfile.txt|, 6 bytes, 0.57Kbyte/sec" ;
+        core:timestamp              "2020-03-09T22:15:16" ;
+        slog:contained              "|/files/again/newfile.txt|, 6" , "UPLOAD:" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:containedPath          "0.57Kbyte/sec" ;
+        slog:localPid               "7941" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_d1e1fa0d-6a70-472c-b4db-b42dde1aa0f2>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:20:00" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "49486" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_898c8cad-8340-4ef2-af02-7c89770d096e>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:46:10" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "10542" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_55c3b105-6be1-451d-89ce-743f3141219b>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T23:03:11" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10864" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_6cabcbf7-6238-4405-bd79-757427ed7ea4>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T16:15:54" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "22918" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_09bd3d90-a4f4-40f5-bdeb-5df6fb3e363e>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T16:42:03" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "25125" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_3a1aeb01-4312-4a02-9edd-99c056929bd6>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T16:21:10" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "23637" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_92ff96f9-c69a-4610-98ee-9410097767e7>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:07:51" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "7832" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_82c72b6a-c7c3-47a2-80fc-2fdedc8ac579>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:41:04" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "10213" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_79bcff1b-ebf6-4dc9-8199-771bef565409>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T16:36:59" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "24713" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_9773b5a1-08d4-4acc-a383-184fbd251a4b>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:26:40" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "9246" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_baf89ab1-109d-4f02-959e-de75d1d1b169>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T23:15:16" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "11997" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_bac00596-9fd4-49fc-8a7c-be77078be566>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/test2.txt|, 11 bytes, 1.06Kbyte/sec" ;
+        core:timestamp              "2020-03-09T23:03:51" ;
+        slog:contained              "|/files/test2.txt|, 11" , "DOWNLOAD:" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:containedPath          "1.06Kbyte/sec" ;
+        slog:localPid               "10866" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_7519fcdc-58d0-41d7-984d-07e53b140808>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:04:39" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "7487" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_8c72ded0-e709-4440-947b-d30eb50f6ed9>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:41:04" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedUrl           "|/files/Reports_2019.csv|, 0" ;
+        slog:localPid               "10215" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_1207a61c-bccc-4f87-8556-c87194649681>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T16:20:42" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "23562" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_13039894-102d-4ad0-81cf-c5dce8c0e9d8>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-09T22:15:16" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "7939" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_a8c98ed2-8dea-4ff6-bfbe-71592f554747>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T16:30:13" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "24284" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_8ff4722a-5449-4992-80bf-3f760a2a0ab5>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T16:35:13" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "24585" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_feab219f-6f7b-491a-a817-0cd3af10702f>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:42:57" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "10323" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_c661bc9d-0aaf-4736-8fde-98d7d91748d7>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T12:46:22" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10558" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_33c9af47-94da-4c91-83e3-ac3438a749d5>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:16:22" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "8677" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_1b301b39-a549-4366-8aa4-d441ff97f0d6>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T12:46:22" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10559" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_6d4feb8e-3239-4140-9603-458feb7f7657>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:32:29" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9593" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_287b5b2c-372f-4003-a746-d73f9227331b>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T16:33:06" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "24464" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_e90693a1-76b5-4a45-aaa7-c3691360df73>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:30:01" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "58773" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_b0b3b6b6-0754-4c47-8cb9-2fc958d6e364>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK LOGIN: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T22:58:13" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10517" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_9585aa00-c55e-4abf-8c82-3dec5c57c6a4>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:38:19" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedUrl           "|/files/Reports_2019.csv|, 0" ;
+        slog:localPid               "9972" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_edb8c26d-552c-48e3-901b-c4904765a0f1>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:32:29" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9592" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_54181f17-e972-485e-ad4f-4448add5cbd4>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T17:00:41" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "26294" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_65dbfe76-4190-4614-a500-f2751384ff00>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:16:22" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "8678" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_6d9680eb-d4d4-4153-a38a-a25d7acf9b73>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK DOWNLOAD: Client |::ffff:10.0.0.6|, |/files/Report_2020.sh|, 312 bytes, 193.45Kbyte/sec" ;
+        core:timestamp              "2020-03-14T17:11:45" ;
+        slog:contained              "|/files/Report_2020.sh|, 312" , "DOWNLOAD:" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:containedPath          "193.45Kbyte/sec" ;
+        slog:localPid               "27051" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_d801fe0a-8052-46eb-a687-205c50cbe077>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Reports_2019.csv|, 10 bytes, 1.78Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:46:22" ;
+        slog:contained              "DOWNLOAD:" , "|/files/Reports_2019.csv|, 10" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:containedPath          "1.78Kbyte/sec" ;
+        slog:localPid               "10561" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_afad274e-b213-4ef5-8ada-59f461c32787>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:41:16" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "10231" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_de4dff01-9da5-4ce6-8b22-5c687b041c75>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T16:22:50" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "23771" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_f1f97c69-b0e2-44bc-902c-2b300b3cdaf9>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK UPLOAD: Client |::ffff:10.0.0.6|, |/files/Reports_2019.csv|, 10 bytes, 1.48Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:26:40" ;
+        slog:contained              "UPLOAD:" , "|/files/Reports_2019.csv|, 10" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:containedPath          "1.48Kbyte/sec" ;
+        slog:localPid               "9251" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_129aa352-7170-4ef8-b1a7-197dbef76241>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2020.csv|, 5 bytes, 3.85Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:46:10" ;
+        slog:contained              "|/files/Reports_2020.csv|, 5" , "DOWNLOAD:" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedPath          "3.85Kbyte/sec" ;
+        slog:localPid               "10546" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_76471120-3b31-4834-b71e-239cb7e674e2>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T16:32:43" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "24444" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_f60b07f6-91dd-473a-b2f1-01e54b7eb842>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:16:02" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "8651" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_e6512933-62d1-45f9-9b77-edbdeeeb7b29>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:05:41" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "7550" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_e57c0487-8ca3-417e-86c3-e720885717e6>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T16:16:20" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "22946" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_69c760de-ae4d-4dc7-a2b9-bca7c3cfb286>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T16:39:37" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "24787" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_c2ea6b35-81b6-4fd6-afec-10b0651cc3ee>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:05:53" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "7564" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_5c8d0ae4-27a0-4169-99a7-3f6b0d04afb9>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T12:28:44" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "9375" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_2b820ea8-5965-47e8-a7f3-6d10f037b88c>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:41:04" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "10214" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_95849c35-5998-43fa-a493-946b9c21d5fc>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T17:15:38" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "27300" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_f1481cb9-fc77-4df0-afa6-554fb35f0111>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.4|" ;
+        core:timestamp              "2020-03-14T16:34:30" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.4" ;
+        slog:localPid               "24557" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_2e417809-f2dc-410e-9a53-9dd998c2a54e>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T23:04:19" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10956" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_7107369d-7006-4bf1-b1a7-36c6f28ba5de>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T17:11:45" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "27050" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_546d172f-8e42-4ad7-adbc-1a780960af5b>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T23:00:59" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10709" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_50e262ea-dcbf-488a-b625-784d802626d6>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] FAIL DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/t.txt|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-09T23:03:46" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:containedUrl           "|/files/t.txt|, 0" ;
+        slog:localPid               "10866" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_671d1298-109b-43b5-ab69-db4981285410>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T17:11:45" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "27049" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_de77484b-47a1-48a7-8e98-b6621c97db12>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T17:06:31" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "26648" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_0c46e399-927d-4ac4-b817-09f4a532c1e2>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T16:34:49" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "24586" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_00589ee2-7f1e-4f7c-a4c9-4c5ddc1aacd5>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] FAIL DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/t.txt|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-09T23:01:18" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:containedUrl           "|/files/t.txt|, 0" ;
+        slog:localPid               "10737" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_a9da5c04-0dbd-47f1-9d22-3625ffa99d77>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T23:00:59" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10710" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_2b3e6a24-d065-4ab6-b443-a488e579d429>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:30:54" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9499" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_15871ca6-29eb-4a22-a4f9-30d808ccfd79>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:32:29" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9591" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_192e562c-8523-4020-9a71-acfe60d804ef>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:26:40" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "9247" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_32c82ee4-48e8-4589-96cf-990d1af0e3b2>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK DOWNLOAD: Client |::ffff:10.0.0.4|, |/files/Report_2020.sh|, 325 bytes, 103.72Kbyte/sec" ;
+        core:timestamp              "2020-03-14T16:34:30" ;
+        slog:contained              "|/files/Report_2020.sh|, 325" , "DOWNLOAD:" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.4" ;
+        slog:containedPath          "103.72Kbyte/sec" ;
+        slog:localPid               "24559" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_e12ecce7-afa0-4542-a3b6-664d8348751c>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/bash|, 1118122 bytes, 45092.55Kbyte/sec" ;
+        core:timestamp              "2020-03-09T23:03:37" ;
+        slog:contained              "|/files/bash|, 1118122" , "DOWNLOAD:" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:containedPath          "45092.55Kbyte/sec" ;
+        slog:localPid               "10866" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_0e601846-b31c-4bb8-be2d-3ffefdd7b1f2>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2020.csv|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:33:11" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedUrl           "|/files/Reports_2020.csv|, 0" ;
+        slog:localPid               "9596" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_93b1ff34-7300-4ee2-a3b6-2da38f1a5c72>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:46:10" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "10544" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_547981bd-d11b-4bd8-8a5c-7654a2999716>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:04:33" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "7478" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_50c9c592-6528-4189-b47c-790e9997805d>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:38:19" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9971" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_8ac87e6f-04a2-4b92-a9b1-2574535b7baf>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T17:07:20" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "26696" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_30144332-4d7a-43bd-ac46-db069951edc5>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T12:28:44" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "9376" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_79c73ede-89fc-4d0d-9020-ddc9ae116f23>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] FAIL LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:28:25" ;
+        slog:contained              "FAIL" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9353" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_40cf875c-bcb9-491d-a059-318719d8269c>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Reports_2020.csv|, 5 bytes, 3.23Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:46:22" ;
+        slog:contained              "|/files/Reports_2020.csv|, 5" , "DOWNLOAD:" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:containedPath          "3.23Kbyte/sec" ;
+        slog:localPid               "10562" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_c9d56734-e278-46ff-ae75-93f44abd26cf>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T23:04:25" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10965" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_6a503943-f371-4fae-aff2-4e2a7ec8c6f9>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:12:26" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "42683" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_28119ad4-ec3b-4f3d-b3a7-351938cf8576>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.4|" ;
+        core:timestamp              "2020-03-14T16:34:15" ;
+        slog:containedIpWithParams  "ffff:10.0.0.4" ;
+        slog:localPid               "24536" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_841ab4be-c150-4c39-b175-f4bcba392af4>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T12:12:40" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "8421" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_d6eca442-d947-4399-8f3e-1323955f2353>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:19:45" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "49487" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_1ac3b48b-efcd-476a-81ff-1c3ed1d077f3>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T17:00:15" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "26256" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_5b2120b1-e17e-43fc-aebb-eef7a22aa31a>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK UPLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2020.csv|, 5 bytes, 1.16Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:46:39" ;
+        slog:contained              "UPLOAD:" , "|/files/Reports_2020.csv|, 5" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedPath          "1.16Kbyte/sec" ;
+        slog:localPid               "10545" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_898d9aa2-7e87-43b8-b1f1-dc212590a203>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] FAIL LOGIN: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:10:04" ;
+        slog:contained              "FAIL" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "8055" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_7a9500ab-046b-4955-bcc7-13c60bcb6272>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jdoe] FAIL DOWNLOAD: Client |::ffff:10.0.0.6|, |/files/Report_2020.sh|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-14T16:30:31" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_jdoe" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:containedUrl           "|/files/Report_2020.sh|, 0" ;
+        slog:localPid               "24310" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_5abc8de0-5896-4fa6-a848-391337df5f65>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:16:02" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "8650" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_ae0842b7-411e-4026-8487-abc486178010>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:49:51" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "76810" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_b24a643d-18ec-4593-8861-99a69650c4d3>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:02:42" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "33939" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_19257088-5ae5-40ac-871b-e08edc59e1fa>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:46:10" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "10541" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_bb46a8ab-7e1b-4324-9aca-b322cc185b19>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Report_2020.sh|, 312 bytes, 287.44Kbyte/sec" ;
+        core:timestamp              "2020-03-14T17:07:33" ;
+        slog:contained              "DOWNLOAD:" , "|/files/Report_2020.sh|, 312" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedPath          "287.44Kbyte/sec" ;
+        slog:localPid               "26717" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_5d6a19b3-bb15-4740-b6cf-d95b078baeda>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T23:01:18" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10735" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_86905cc7-1258-4974-a330-509c048903ef>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T16:38:07" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "24782" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_b567f5c9-5428-4344-8627-7b31a540d294>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-09T22:14:26" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "7866" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_3143a1d2-3924-49ff-b624-3bb8a6f7a1be>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T17:00:15" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "26257" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_0e11642f-1a74-4d4a-b8dd-bf0bf3ee794d>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:46:10" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "10543" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_3fd0f432-f53d-4ff4-b79b-761e3dd8ba02>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T16:42:00" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "25126" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_763d7b35-b7c8-4966-92a3-47c754f58fdc>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] FAIL DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Report_2020.sh|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-14T16:35:13" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:containedUrl           "|/files/Report_2020.sh|, 0" ;
+        slog:localPid               "24608" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_adcafcd5-3f70-4dd0-bb16-79e23e969b3c>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] FAIL LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T12:12:42" ;
+        slog:contained              "FAIL" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "8420" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_6a24edb5-b0e3-43e9-9b7c-957062a18583>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T11:52:30" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "24294" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_d1739b1b-954e-4dc2-91fe-271b86519c38>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:07:57" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "7838" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_65701bbe-247f-4bde-81a3-c2125686b239>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:10:02" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "8056" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_ed2ac990-edf2-45bf-9990-48613c2bbb6b>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/bash|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:42:57" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedUrl           "|/files/bash|, 0" ;
+        slog:localPid               "10324" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_2bd29a2b-48fe-4909-b388-8754884a49f1>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.4|" ;
+        core:timestamp              "2020-03-14T16:34:29" ;
+        slog:containedIpWithParams  "ffff:10.0.0.4" ;
+        slog:localPid               "24556" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_aad7da18-be0e-48b5-a223-239c17760216>
+        a                           core:Log ;
+        core:logMessage             "[sepses] FAIL DOWNLOAD: Client |::ffff:10.0.0.7|, |/test.txt|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-07T12:21:15" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:containedUrl           "|/test.txt|, 0" ;
+        slog:localPid               "49708" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_32096bf6-36e0-4aaa-943f-be0b9fadcd93>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T16:16:20" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "22945" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_29100fbd-da2d-4369-bc3c-0e7c78e3ae17>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:32:29" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9594" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_cf09410e-b8c4-4916-a911-d55eab44ccff>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T11:54:42" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "26614" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_777ac92d-23a6-4d8d-92ad-e12ab368439e>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK UPLOAD: Client |::ffff:10.0.0.7|, |/files/Report_2020.sh|, 325 bytes, 14.53Kbyte/sec" ;
+        core:timestamp              "2020-03-14T16:16:20" ;
+        slog:contained              "|/files/Report_2020.sh|, 325" , "UPLOAD:" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:containedPath          "14.53Kbyte/sec" ;
+        slog:localPid               "22947" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_3d4f351e-4772-4fc1-b458-1e1b57f45f12>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK UPLOAD: Client |::ffff:10.0.0.6|, |/files/Reports_2020.csv|, 5 bytes, 0.81Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:26:40" ;
+        slog:contained              "|/files/Reports_2020.csv|, 5" , "UPLOAD:" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:containedPath          "0.81Kbyte/sec" ;
+        slog:localPid               "9250" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_5d6abc99-3781-4fdf-9096-70a71ca4f94d>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:31:16" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9523" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_08b02b83-7995-4ddb-9d9a-b9185a7fd88f>
+        a                           core:Log ;
+        core:logMessage             "[sepses] FAIL DOWNLOAD: Client |::ffff:10.0.0.7|, |/open|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-07T12:21:39" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:containedUrl           "|/open|, 0" ;
+        slog:localPid               "49708" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_b9f058b6-6cee-4bb9-822c-bf249c14d3ef>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:05:35" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "7544" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_11bd3051-aa55-41f6-8bf6-aaf087db441c>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T16:20:53" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "23636" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_3c8e2820-8f66-462e-aab6-b3265b90a29e>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:41:29" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedUrl           "|/files/Reports_2019.csv|, 0" ;
+        slog:localPid               "10215" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_1c03e49b-db9f-471c-aa4e-b87e4833c569>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:05:07" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "7518" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_9b0fa216-aeaa-470e-a0ae-3b0d4f383bcc>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:32:55" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "61432" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_7af0a7de-17ab-4f58-9f70-8835488f965d>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T16:20:54" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "23638" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_1c76bca8-86a5-4ad1-89a4-6616e8ee87c7>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.4|" ;
+        core:timestamp              "2020-03-14T16:34:30" ;
+        slog:containedIpWithParams  "ffff:10.0.0.4" ;
+        slog:localPid               "24558" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_7f0b1fe4-cabe-42fa-953e-fe57240688ee>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:38:19" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9970" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_f575acd8-54fb-4977-b64e-3877126fd2ea>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:28:24" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9354" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_96b44c5e-9101-473f-89e8-8c52238fd813>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T16:30:14" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "24286" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_be6ed45a-ef3c-44ef-bdac-321a449a891d>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T23:01:18" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10736" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_112a6ee6-b41a-42e1-a5eb-4a8f5ebb60a9>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2019.csv|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:33:11" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedUrl           "|/files/Reports_2019.csv|, 0" ;
+        slog:localPid               "9595" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_6d4dc477-1aa5-4f2a-acb7-ab37a2b401b4>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T11:52:10" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "24301" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_07135929-ba43-4761-9f11-8d085fc0ccb9>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:44:22" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "71825" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_d83bd3d5-2fce-44f3-8923-9be549e0433c>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:41:16" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "10230" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_50ba3c4b-156f-43c7-ad21-e5046963c357>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:31:16" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9522" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_1e986300-02b3-4cd3-88ef-46b6aef388be>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK UPLOAD: Client |::ffff:10.0.0.9|, |/files/bash|, 1118122 bytes, 79124.35Kbyte/sec" ;
+        core:timestamp              "2020-03-09T23:03:11" ;
+        slog:contained              "UPLOAD:" , "|/files/bash|, 1118122" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:containedPath          "79124.35Kbyte/sec" ;
+        slog:localPid               "10866" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_19a6099b-78a7-491d-83a9-0448b00a385d>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T17:11:29" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "27034" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_63860299-b3ef-40bd-bcc1-2f61256aed22>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK DELETE: Client |::ffff:10.0.0.7|, |/files/Report_2020.sh|" ;
+        core:timestamp              "2020-03-14T17:15:50" ;
+        slog:contained              "DELETE:" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:containedPath          "|/files/Report_2020.sh|" ;
+        slog:localPid               "27301" ;
+        slog:templateId             "a9a9344fbebfc95d1f466ce986e72b7069d8a7abe9b27af13756e23c60964bcb" .
+
+<http://w3id.org/sepses/id/LogEntry_20c70bba-e97b-458c-98fd-2f10373bf7ae>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T16:37:00" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "24715" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_fb8bcc28-d83c-4ba5-8102-be669b72f28f>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T12:14:59" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "8587" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_4a479dfa-211e-4f05-9f97-844b694f78f7>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Report_2020.sh|, 325 bytes, 191.66Kbyte/sec" ;
+        core:timestamp              "2020-03-14T16:42:03" ;
+        slog:contained              "DOWNLOAD:" , "|/files/Report_2020.sh|, 325" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:containedPath          "191.66Kbyte/sec" ;
+        slog:localPid               "25130" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_6c1f811f-bfa8-471f-8010-b9151a851ce4>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T17:00:45" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "26295" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_00cd691f-9498-41ba-8c9d-554ed7bbd030>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T16:38:08" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "24788" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_576d0ea7-b47b-4586-8373-06ef20951364>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] FAIL LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:29:13" ;
+        slog:contained              "FAIL" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9409" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_293717b9-7237-45b5-a46b-adf133012c03>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:03:08" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "34344" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_1e93c37a-7b06-4c7e-b6de-87093facb57b>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T12:46:22" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10557" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_bd45f8b1-28a9-4104-8c40-b556e052f368>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T17:00:42" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "26296" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_d67e4b91-4c92-4caa-b93b-18f060760e92>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T17:11:29" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "27035" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_b6d749b1-c064-473f-a47d-b7282abbe177>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:42:57" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "10322" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_5f68f848-ead0-408b-a743-9c538c4711d7>
+        a                           core:Log ;
+        core:logMessage             "[sepses] FAIL DOWNLOAD: Client |::ffff:10.0.0.7|, |/test.txt|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-07T12:21:29" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:containedUrl           "|/test.txt|, 0" ;
+        slog:localPid               "49708" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_c58d4586-9743-41d9-9ba7-a9aaca3a1f19>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] FAIL DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/Reports_2020.csv|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:32:29" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedUrl           "|/files/Reports_2020.csv|, 0" ;
+        slog:localPid               "9596" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_02648f5f-8a25-4ec6-b41a-c824cc82a33e>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:12:14" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "42684" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_864d6941-6689-45a1-b44e-49255614d1cf>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:33:07" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "61431" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_714161c6-c5bb-4c8d-88cb-643b1789a9b2>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:44:33" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "71824" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_fb052ab6-7c60-4399-82dd-6eb4d83eee95>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T12:14:59" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "8588" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_602e2553-11e7-4d52-8acb-0cec8e13485b>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T17:06:30" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "26646" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_19a94912-a862-46ca-8a11-f16ce8f1b271>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T16:34:48" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "24584" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_a4affbe1-df11-440f-a7ad-535964984f70>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:50:00" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "76962" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_4672401f-accc-4db0-b7d5-9760f2e1aa47>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK DOWNLOAD: Client |::ffff:10.0.0.7|, |/files/Report_2020.sh|, 325 bytes, 286.71Kbyte/sec" ;
+        core:timestamp              "2020-03-14T16:21:10" ;
+        slog:contained              "|/files/Report_2020.sh|, 325" , "DOWNLOAD:" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:containedPath          "286.71Kbyte/sec" ;
+        slog:localPid               "23658" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_e5c2b065-ffa7-4b7b-8175-7c9090f5e380>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T23:14:27" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "11869" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_ab61a717-335e-4609-8d99-60a4d720e194>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] FAIL DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Reports_2020.csv|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:33:46" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:containedUrl           "|/files/Reports_2020.csv|, 0" ;
+        slog:localPid               "9667" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_76128dcd-966e-4384-94ca-abdc59027610>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jdoe] FAIL DOWNLOAD: Client |::ffff:10.0.0.6|, |/files/Report_2020.sh|, 0.00Kbyte/sec" ;
+        core:timestamp              "2020-03-14T16:32:51" ;
+        slog:contained              "sec" ;
+        slog:containedFtpUser       "ftp_jdoe" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:containedUrl           "|/files/Report_2020.sh|, 0" ;
+        slog:localPid               "24450" ;
+        slog:templateId             "22aacc86c6ac02e100fa37218995f1a3ef68de3467e2e51ae8a9813cda0050d1" .
+
+<http://w3id.org/sepses/id/LogEntry_ca1e949c-1f5f-4e03-8805-ec2bf65341ea>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:26:40" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "9249" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_54e81589-4ab4-4f62-a19d-010a5f3a2952>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] FAIL LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T12:30:55" ;
+        slog:contained              "FAIL" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "9498" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_69eafe76-99b3-4eee-8e0f-e3c00f8d7fdd>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T17:07:21" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "26698" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_cf87bc7e-e7a7-4b9b-88f5-a053bba0792e>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T12:46:22" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10560" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_88d0b557-8571-4d9e-9b23-6b3f27f13377>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jdoe] FAIL LOGIN: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T16:33:27" ;
+        slog:contained              "FAIL" ;
+        slog:containedFtpUser       "ftp_jdoe" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "24469" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_21ee91c8-5217-42ce-b6e9-565eaa3bdb20>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK DOWNLOAD: Client |::ffff:10.0.0.12|, |/files/test2.txt|, 11 bytes, 0.95Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:43:07" ;
+        slog:contained              "DOWNLOAD:" , "|/files/test2.txt|, 11" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:containedPath          "0.95Kbyte/sec" ;
+        slog:localPid               "10324" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_f9b4f2b2-1f07-47bc-9391-c1cd87ea89dd>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-09T22:15:16" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "7940" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_cedfc632-fc53-4f46-b9a2-4a99f3bc3175>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T12:33:46" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "9666" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_1a760321-bc7d-4ae9-8577-624ee657df64>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T17:15:38" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "27299" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_d5d97d77-b479-44d0-8c13-63e23764a8b7>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK LOGIN: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-14T12:33:46" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "9665" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_212641f9-9099-482d-b624-ac01c48b5f0f>
+        a                           core:Log ;
+        core:logMessage             "[ftp_adminwp] OK LOGIN: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T23:15:16" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_adminwp" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "11995" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_01c01286-eeab-4dfc-8071-e4b795cca5b5>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T16:32:42" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "24442" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_125726a0-f3a9-4532-96e8-ea2020d278ea>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK UPLOAD: Client |::ffff:10.0.0.9|, |/files/Reports_2019.csv|, 10 bytes, 5.15Kbyte/sec" ;
+        core:timestamp              "2020-03-14T12:46:33" ;
+        slog:contained              "|/files/Reports_2019.csv|, 10" , "UPLOAD:" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:containedPath          "5.15Kbyte/sec" ;
+        slog:localPid               "10561" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_91032115-773f-41af-8376-bc8aae0af05a>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:05:01" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "7506" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_6cf02018-21e3-47d8-8e3f-8fa003520158>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T16:22:51" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "23773" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_8c49256e-dd78-477f-ad0d-5064ae9c6818>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jdoe] OK LOGIN: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T12:10:32" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_jdoe" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "8091" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_2cb9c264-e11b-43b3-bde4-3ddbca47caf8>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Report_2020.sh|, 312 bytes, 312.18Kbyte/sec" ;
+        core:timestamp              "2020-03-14T17:00:45" ;
+        slog:contained              "DOWNLOAD:" , "|/files/Report_2020.sh|, 312" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:containedPath          "312.18Kbyte/sec" ;
+        slog:localPid               "26297" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_748e29ba-53ad-457d-9887-2f18deec00e6>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jdoe] OK LOGIN: Client |::ffff:10.0.0.6|" ;
+        core:timestamp              "2020-03-14T16:30:31" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_jdoe" ;
+        slog:containedIpWithParams  "ffff:10.0.0.6" ;
+        slog:localPid               "24285" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_0b453faf-408e-4276-9737-dbf95d61b9a5>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T22:58:13" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10518" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_4657915a-e75e-4ca7-abae-0cc5123f0bc5>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK UPLOAD: Client |::ffff:10.0.0.7|, |/files/t.txt|, 8 bytes, 15.44Kbyte/sec" ;
+        core:timestamp              "2020-03-07T12:36:22" ;
+        slog:contained              "UPLOAD:" , "|/files/t.txt|, 8" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:containedPath          "15.44Kbyte/sec" ;
+        slog:localPid               "61614" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_4bbbfa46-7041-4408-934f-5eb0c644290c>
+        a                           core:Log ;
+        core:logMessage             "[ftp_akep] OK DOWNLOAD: Client |::ffff:10.0.0.9|, |/files/Report_2020.sh|, 325 bytes, 382.85Kbyte/sec" ;
+        core:timestamp              "2020-03-14T16:39:37" ;
+        slog:contained              "DOWNLOAD:" , "|/files/Report_2020.sh|, 325" ;
+        slog:containedFtpUser       "ftp_akep" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:containedPath          "382.85Kbyte/sec" ;
+        slog:localPid               "24987" ;
+        slog:templateId             "0e07210964a1351e006c851a5be4535665fb91fa0061932fd56d1f806fa2da56" .
+
+<http://w3id.org/sepses/id/LogEntry_ea48f501-507a-4c8a-a53f-fff92517d7bd>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:50:11" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "76961" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_5f027c87-94ff-46bb-b02e-d8c5ab38c50b>
+        a                           core:Log ;
+        core:logMessage             "[sepses] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-07T12:03:32" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "sepses" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "34343" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_635f0231-0b30-4b2f-99e5-b16299b9df65>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-09T22:14:26" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "7871" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
+
+<http://w3id.org/sepses/id/LogEntry_eb2de151-692d-4d91-bf66-aa133795d21f>
+        a                           core:Log ;
+        core:logMessage             "[ftp_admin] OK LOGIN: Client |::ffff:10.0.0.7|" ;
+        core:timestamp              "2020-03-14T16:15:54" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_admin" ;
+        slog:containedIpWithParams  "ffff:10.0.0.7" ;
+        slog:localPid               "22917" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_b5531849-89df-4bcb-ab26-b73fa4752f94>
+        a                           core:Log ;
+        core:logMessage             "[ftp_jhalley] OK LOGIN: Client |::ffff:10.0.0.12|" ;
+        core:timestamp              "2020-03-14T17:07:33" ;
+        slog:contained              "OK" ;
+        slog:containedFtpUser       "ftp_jhalley" ;
+        slog:containedIpWithParams  "ffff:10.0.0.12" ;
+        slog:localPid               "26697" ;
+        slog:templateId             "2f69cc1bb15825c386d5cfe706931c34199475cedd57b87e8c9f2530c18f6817" .
+
+<http://w3id.org/sepses/id/LogEntry_0951cda4-3790-48a8-85a4-5b08cedfc387>
+        a                           core:Log ;
+        core:logMessage             "CONNECT: Client |::ffff:10.0.0.9|" ;
+        core:timestamp              "2020-03-09T23:03:11" ;
+        slog:containedIpWithParams  "ffff:10.0.0.9" ;
+        slog:localPid               "10865" ;
+        slog:templateId             "ff5c2542f7d3a6c6f308404cde14879c2750aa17b21df1d8b5415d0f63a80c71" .
 

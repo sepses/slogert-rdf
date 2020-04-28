@@ -21,42 +21,42 @@ function getDuration() {
 ## == transform Raw to structured
 
 start=$SECONDS
-java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/vsftpd.log_structured.ttl" "ftp.ttl"
+java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/vsftpd.log_structured.ttl" "output/ftp.ttl"
 duration=$(( SECONDS - start ))
-getDuration "ftp" $duration
+getDuration "transform-ftp" $duration
 
 start=$SECONDS
-java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/auth.log_structured.ttl" "auth.ttl"
+java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/auth.log_structured.ttl" "output/auth.ttl"
 duration=$(( SECONDS - start ))
-getDuration "authlog" $duration
+getDuration "transform-authlog" $duration
 
 start=$SECONDS
-java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/kern.log_structured.ttl" "kern.ttl"
+java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/kern.log_structured.ttl" "output/kern.ttl"
 duration=$(( SECONDS - start ))
-getDuration "kern" $duration
+getDuration "transform-kern" $duration
 
 start=$SECONDS
-java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/sys.log_structured.ttl" "syslog.ttl"
+java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/sys.log_structured.ttl" "output/syslog.ttl"
 duration=$(( SECONDS - start ))
-getDuration "syslog" $duration
+getDuration "transform-syslog" $duration
 
-#start=$SECONDS
-#java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/apache-host.log_structured.ttl" "apache-host.ttl"
-#duration=$(( SECONDS - start ))
-#getDuration "apache-host" $duration
-#
-#start=$SECONDS
-#java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/apache-error.log_structured.ttl" "apache-error.ttl"
-#duration=$(( SECONDS - start ))
-#getDuration "apache-error" $duration
-#
-#start=$SECONDS
-#java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/apache-access.log_structured.ttl" "apache-access.ttl"
-#duration=$(( SECONDS - start ))
-#getDuration "apache-access" $duration
-#
-#start=$SECONDS
-#java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/audit.log_structured.ttl" "audit.ttl"
-#duration=$(( SECONDS - start ))
-#getDuration "auditlog" $duration
+start=$SECONDS
+java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/apache-host.log_structured.ttl" "output/apache-host.ttl"
+duration=$(( SECONDS - start ))
+getDuration "transform-apache-host" $duration
+
+start=$SECONDS
+java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/apache-error.log_structured.ttl" "output/apache-error.ttl"
+duration=$(( SECONDS - start ))
+getDuration "transform-apache-error" $duration
+
+start=$SECONDS
+java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/apache-access.log_structured.ttl" "output/apache-access.ttl"
+duration=$(( SECONDS - start ))
+getDuration "transform-apache-access" $duration
+
+start=$SECONDS
+java -jar target/slogert2rdf-0.1.0-SNAPSHOT-jar-with-dependencies.jar "slogert-owl.ttl" "input/audit.log_structured.ttl" "output/audit.ttl"
+duration=$(( SECONDS - start ))
+getDuration "transform-auditlog" $duration
 
