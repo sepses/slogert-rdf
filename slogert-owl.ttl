@@ -41,17 +41,47 @@ slog:containedPort rdfs:subPropertyOf slog:contained ;
               rdfs:range core:Port .
 slog:containedUser rdfs:subPropertyOf slog:contained ;
               rdfs:range core:User .
-slog:containedHost rdfs:subPropertyOf slog:contained ;
+slog:containedHostName rdfs:subPropertyOf slog:contained ;
               rdfs:range core:Host .
 slog:containedDomain rdfs:subPropertyOf slog:contained ;
               rdfs:range core:Domain .
 slog:containedPid rdfs:subPropertyOf slog:contained ;
               rdfs:range core:Pid .
 
+slog:containedUrl rdfs:subPropertyOf slog:contained ;
+              rdfs:range core:Url .
+slog:containedPath rdfs:subPropertyOf slog:contained ;
+              rdfs:range core:Path .
+
 slog:localPid rdfs:subPropertyOf slog:containedPid ;
               rdfs:range core:Pid .
 slog:localHost rdfs:subPropertyOf slog:containedHost ;
               rdfs:range core:Host .
+
+slog:containedUserEnteringPassword rdfs:subPropertyOf slog:containedUser ;
+              rdfs:range core:User .
+slog:containedPath rdfs:subPropertyOf slog:contained ;
+              rdfs:range core:Path .
+slog:containedFileName rdfs:subPropertyOf slog:contained ;
+              rdfs:range core:FileName .
+slog:containedFilePath rdfs:subPropertyOf slog:contained ;
+              rdfs:range core:FilePath .
+slog:containedUrlWithParams rdfs:subPropertyOf slog:containedUrl ;
+              rdfs:range core:UrlWithParams .
+slog:containedIpWithParams rdfs:subPropertyOf slog:containedIp ;
+              rdfs:range core:IpWithParams .
+slog:containedIpv6 rdfs:subPropertyOf slog:containedIp ;
+              rdfs:range core:Ipv6 .
+slog:containedFtpUser rdfs:subPropertyOf slog:containedUser ;
+              rdfs:range core:FtpUser .
+slog:containedGroup rdfs:subPropertyOf slog:contained ;
+              rdfs:range core:Group .
+slog:containedCommonMac rdfs:subPropertyOf slog:contained ;
+              rdfs:range core:Mac .
+slog:containedCiscoMac rdfs:subPropertyOf slog:containedMac ;
+              rdfs:range core:CiscoMac .
+slog:containedExe rdfs:subPropertyOf slog:containedMac ;
+              rdfs:range core:Exe .
 
 slog:remoteIp rdfs:subPropertyOf slog:containedIp ;
               rdfs:range core:Ip .
@@ -70,8 +100,27 @@ core:Ip rdf:type owl:Class .
 core:Port rdf:type owl:Class .
 core:User rdf:type owl:Class .
 core:Domain rdf:type owl:Class .
+core:Mac rdf:type owl:Class .
 
 core:Pid rdf:type owl:Class .
+core:Url rdf:type owl:Class .
+core:Path rdf:type owl:Class .
+core:FileName rdf:type owl:Class .
+core:FilePath rdf:type owl:Class .
+core:Group rdf:type owl:Class .
+core:Exe rdf:type owl:Class .
+core:FtpUser rdf:type owl:Class ;
+    rdfs:subClassOf core:User .
+core:IpWithParams rdf:type owl:Class ;
+    rdfs:subClassOf core:Ip .
+core:Ipv6 rdf:type owl:Class ;
+    rdfs:subClassOf core:Ip .
+core:UrlWithParams rdf:type owl:Class ;
+    rdfs:subClassOf core:Url .
+core:UrlWithoutParams rdf:type owl:Class ;
+    rdfs:subClassOf core:Url .
+core:CiscoMac rdf:type owl:Class ;
+    rdfs:subClassOf core:Mac .
 
 slog:ApacheLogEntry rdf:type owl:Class ;
                     rdfs:subClassOf core:LogEntry .
